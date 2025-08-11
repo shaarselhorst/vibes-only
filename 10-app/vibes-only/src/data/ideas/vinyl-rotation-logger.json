@@ -1,0 +1,9 @@
+{
+  "id": "vinyl-rotation-logger",
+  "title": "Vinyl Rotation Logger",
+  "summary": "Log which records you played and get a smart 'next up' to rotate your collection.",
+  "objective": "Users add albums with artist and genre; tapping 'played' updates last-played date and the app suggests underplayed picks while avoiding recent repeats.",
+  "tags": ["music", "hobby", "organization"]
+}
+
+

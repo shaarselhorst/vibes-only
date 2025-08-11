@@ -1,0 +1,9 @@
+{
+  "id": "quick-packing-checklist",
+  "title": "Quick Packing Checklist",
+  "summary": "Generate a packing list by trip type and weather, then check items off.",
+  "objective": "Users select a trip preset (work, beach, hiking) and weather; the app creates a checklist with essentials, lets users add custom items, and saves one preset for reuse.",
+  "tags": ["travel", "planning", "organization"]
+}
+
+

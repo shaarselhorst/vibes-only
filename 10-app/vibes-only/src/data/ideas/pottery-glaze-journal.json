@@ -1,0 +1,9 @@
+{
+  "id": "pottery-glaze-journal",
+  "title": "Pottery Glaze Journal",
+  "summary": "Record glaze mixes, firing temps, and outcomes with quick star ratings.",
+  "objective": "Users log a glaze recipe with notes and kiln temp; after firing, they add a photo URL or note and a star rating; the app highlights top results and common notes.",
+  "tags": ["crafts", "art", "logging"]
+}
+
+

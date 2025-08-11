@@ -1,0 +1,9 @@
+{
+  "id": "car-maintenance-reminder",
+  "title": "Car Maintenance Reminder",
+  "summary": "Track oil changes, tire rotations, and inspections by miles and date.",
+  "objective": "Users enter current mileage and last service dates; the app shows what's due next based on mileage/time thresholds and provides a quick 'done' to reset.",
+  "tags": ["auto", "home", "maintenance"]
+}
+
+
