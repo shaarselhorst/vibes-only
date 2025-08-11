@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onBeforeUnmount } from 'vue'
+import { ref, onBeforeUnmount, computed } from 'vue'
 import type { Idea } from '@/types/idea'
 
 defineProps<{ idea: Idea }>()
@@ -48,13 +48,39 @@ ${idea.tags.join(', ')}
     console.error('Failed to copy to clipboard:', err)
   }
 }
+
+// Subtle, corner-weighted glow background behind the card
+// Randomize which corner is dominant so the list feels organic
+type CornerSpec = { name: 'top-left' | 'top-right' | 'bottom-left' | 'bottom-right'; pos: string }
+const glowCorners: CornerSpec[] = [
+  { name: 'top-left', pos: '0% 0%' },
+  { name: 'top-right', pos: '100% 0%' },
+  { name: 'bottom-left', pos: '0% 100%' },
+  { name: 'bottom-right', pos: '100% 100%' },
+]
+const chosenCorner = glowCorners[Math.floor(Math.random() * glowCorners.length)]
+const glowBackground = computed(
+  () => `radial-gradient(240px 240px at ${chosenCorner.pos},
+    rgba(99,102,241,0.35),        /* indigo-500 */
+    rgba(168,85,247,0.18) 45%,    /* purple-500 */
+    rgba(236,72,153,0.12) 60%,    /* pink-500 */
+    transparent 72%)`
+)
 </script>
 
 <template>
-  <div 
-    class="mt-8 mx-auto w-full max-w-2xl rounded-2xl border border-zinc-200/20 bg-zinc-900/60 p-6 shadow-xl backdrop-blur relative"
-    data-idea-card-root
-  >
+  <div class="relative mt-8 mx-auto w-full max-w-2xl">
+      <!-- Backdrop glow (leaks from behind the card) -->
+      <div
+        class="pointer-events-none absolute -inset-6 z-0 rounded-3xl blur-2xl opacity-40 dark:opacity-50"
+        :style="{ background: glowBackground }"
+        aria-hidden="true"
+      />
+
+      <div 
+        class="relative z-10 rounded-2xl border border-zinc-200/20 bg-zinc-900/60 p-6 shadow-xl backdrop-blur"
+        data-idea-card-root
+      >
       <!-- Copy Button -->
       <button
         @click="copyToClipboard(idea)"
@@ -122,6 +148,7 @@ ${idea.tags.join(', ')}
           </div>
         </div>
       </Transition>
+      </div>
   </div>
 </template>
 
