@@ -1,7 +1,0 @@
-{
-  "id": "plant-watering-tracker",
-  "title": "Plant Watering Tracker",
-  "summary": "Never forget to water your plants again with this simple watering schedule tracker.",
-  "objective": "A plant care app where users can add their plants with names and watering frequencies, mark when they've watered each plant, and see which plants need watering today. Perfect for forgetful gardeners who want to keep their plants healthy.",
-  "tags": ["gardening", "plants", "tracking", "home", "health"]
-}
