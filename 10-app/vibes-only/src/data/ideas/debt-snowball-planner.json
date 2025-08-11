@@ -1,0 +1,9 @@
+{
+  "id": "debt-snowball-planner",
+  "title": "Debt Snowball Planner",
+  "summary": "Order debts by smallest balance or highest rate and see a simple payoff path.",
+  "objective": "Users list debts with balance and APR, choose Snowball or Avalanche; the app shows recommended payoff order and a rough months-to-clear estimate at a single monthly extra amount.",
+  "tags": ["finance", "planning", "education"]
+}
+
+

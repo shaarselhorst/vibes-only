@@ -1,0 +1,9 @@
+{
+  "id": "timezone-meeting-finder",
+  "title": "Time Zone Meeting Finder",
+  "summary": "Find overlapping 2-hour windows across 2–4 time zones at a glance.",
+  "objective": "Users add up to four cities/time zones and pick preferred working hours; the app highlights overlapping windows and suggests the earliest fair slot.",
+  "tags": ["productivity", "time", "communication"]
+}
+
+

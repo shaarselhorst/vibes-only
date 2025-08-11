@@ -1,0 +1,9 @@
+{
+  "id": "bird-sighting-log",
+  "title": "Bird Sighting Log",
+  "summary": "Record bird sightings with species, location, and quick weather notes.",
+  "objective": "Users add a sighting with species name, location text, and optional notes (weather, behavior); the app lists recent entries, counts species, and highlights first-time sightings.",
+  "tags": ["nature", "outdoors", "logging"]
+}
+
+

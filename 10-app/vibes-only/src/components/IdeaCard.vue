@@ -27,13 +27,13 @@ ${idea.tags.join(', ')}
 
 <template>
   <Transition
-    name="idea-fade"
+    name="idea-swoosh"
     mode="out-in"
     appear
   >
     <div 
       :key="idea.id"
-      class="mt-8 mx-auto w-full max-w-2xl rounded-2xl border border-zinc-200/20 bg-zinc-900/60 p-6 shadow-xl backdrop-blur relative animate-bounce-in"
+      class="mt-8 mx-auto w-full max-w-2xl rounded-2xl border border-zinc-200/20 bg-zinc-900/60 p-6 shadow-xl backdrop-blur relative"
     >
       <!-- Copy Button -->
       <button
@@ -80,25 +80,27 @@ ${idea.tags.join(', ')}
 </template>
 
 <style scoped>
-.idea-fade-enter-active,
-.idea-fade-leave-active {
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+.idea-swoosh-enter-active,
+.idea-swoosh-leave-active {
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+              opacity 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform, opacity;
 }
 
-.idea-fade-enter-from {
+.idea-swoosh-enter-from {
   opacity: 0;
-  transform: translateY(20px) scale(0.95);
+  transform: translateX(40px) scale(0.98);
 }
 
-.idea-fade-leave-to {
-  opacity: 0;
-  transform: translateY(-20px) scale(0.95);
-}
-
-.idea-fade-enter-to,
-.idea-fade-leave-from {
+.idea-swoosh-enter-to,
+.idea-swoosh-leave-from {
   opacity: 1;
-  transform: translateY(0) scale(1);
+  transform: translateX(0) scale(1);
+}
+
+.idea-swoosh-leave-to {
+  opacity: 0;
+  transform: translateX(-40px) scale(0.98);
 }
 </style>
 

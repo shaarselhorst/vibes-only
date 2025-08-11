@@ -1,0 +1,9 @@
+{
+  "id": "mindful-breathing-coach",
+  "title": "Mindful Breathing Coach",
+  "summary": "Guided box, 4-7-8, or custom breathing with a calm visual timer.",
+  "objective": "Users pick a pattern and duration; the app animates inhale/hold/exhale phases, tracks completed sessions, and shows a gentle daily streak.",
+  "tags": ["wellness", "health", "habits"]
+}
+
+
