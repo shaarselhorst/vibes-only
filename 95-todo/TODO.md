@@ -77,24 +77,6 @@ Example single-file entries (one idea per file):
 - Uniform random: `index = Math.floor(Math.random() * ideas.length)`.
 - Guard against immediate repeat by re-rolling once if the same `id` appears consecutively.
 
-#### 9) Project Structure (planned)
-```
-10-app/
-  └─ vibes-only/
-      ├─ index.html
-      ├─ src/
-      │  ├─ main.ts
-      │  ├─ App.vue
-      │  └─ components/
-      │     ├─ VibeButton.vue
-      │     └─ IdeaCard.vue
-      ├─ public/
-      │  └─ data/ideas/            # many files, one idea per file
-      │     ├─ chat-mock-api-ui.json
-      │     └─ image-annotator.json
-      └─ tailwind.css / tailwind.config.js
-```
-
 #### 10) Acceptance Criteria (MVP)
 - App builds and runs locally with `npm run dev`.
 - Page displays a prominent “Start vibing!” button.
