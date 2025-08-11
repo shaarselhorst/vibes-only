@@ -16,10 +16,6 @@ Key decisions:
 ### Tasks
 
 1) Scaffold app under `10-app/vibes-only`
-- Create a Vite Vue + TS project in `10-app/vibes-only` (non-interactive).
-- Install Tailwind CSS (v4.x), PostCSS, and Autoprefixer; initialize config.
-- Configure Tailwind content globs for Vue + TS; create `src/assets/tailwind.css` with `@tailwind base; @tailwind components; @tailwind utilities;` and import it in `main.ts`.
-- Add `@` alias to `vite.config.ts`.
 
 2) Data model and loading
 - Create `src/types/idea.ts`:
@@ -60,16 +56,6 @@ Key decisions:
 
 ### Commands (PowerShell, non-interactive)
 
-- Create app:
-  - `cd 10-app`
-  - `npm create vite@latest vibes-only -- --template vue-ts`
-- Install deps:
-  - `cd vibes-only`
-  - `npm i -D tailwindcss postcss autoprefixer`
-  - `npx tailwindcss init -p`
-- Dev server:
-  - `npm run dev`
-
 Note: Use non-interactive defaults; do not pause for prompts.
 
 ### Acceptance criteria (must meet all)
@@ -82,11 +68,6 @@ Note: Use non-interactive defaults; do not pause for prompts.
 
 ### Deliverables
 - Working app under `10-app/vibes-only`.
-- Files:
-  - `vite.config.ts` with `@` alias.
-  - `src/types/idea.ts`, `src/data/loadIdeas.ts`, `src/data/ideas/*.json`.
-  - `src/App.vue`, `src/components/VibeButton.vue`, `src/components/IdeaCard.vue`, `src/main.ts`, `src/assets/tailwind.css`.
-  - Tailwind and PostCSS config files.
 
 ### Verification
 - Start dev server and confirm:

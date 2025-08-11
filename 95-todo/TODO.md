@@ -18,8 +18,8 @@ Single-page web app that randomly surfaces pre-configured project ideas to help 
 - **As a developer using AI tools**, I want ideas that are scoped and web-focused so I can practice using an AI editor effectively.
 
 #### 4) Tech Stack
-- **Framework**: Vue 3.5.18 + TypeScript
-- **Styling**: Tailwind CSS 4.1
+- **Framework**: Vue + TypeScript
+- **Styling**: Tailwind CSS
 - **Build Tooling**: Vite + npm
 - **Data**: Directory of JSON files, each file contains a single idea (no SQLite, no server-side APIs, no accounts)
 
