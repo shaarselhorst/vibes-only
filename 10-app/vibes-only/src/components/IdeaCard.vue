@@ -7,7 +7,8 @@ defineProps<{ idea: Idea }>()
 <template>
   <div class="mt-8 mx-auto w-full max-w-2xl rounded-2xl border border-zinc-200/20 bg-zinc-900/60 p-6 shadow-xl backdrop-blur">
     <h2 class="text-2xl font-bold text-white">{{ idea.title }}</h2>
-    <p class="mt-2 text-zinc-200">{{ idea.description }}</p>
+    <p class="mt-2 text-zinc-200">{{ idea.summary }}</p>
+    <p class="mt-4 text-zinc-300">{{ idea.objective }}</p>
     <div class="mt-4 flex flex-wrap gap-2">
       <span
         v-for="tag in idea.tags"

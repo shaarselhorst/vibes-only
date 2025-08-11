@@ -6,10 +6,15 @@ export const ideas: Idea[] = Object.values(modules).map((m) => m.default)
 
 export function chooseNextIdea(currentId?: string): Idea | null {
   if (ideas.length === 0) return null
-  let idx = Math.floor(Math.random() * ideas.length)
-  if (currentId && ideas[idx].id === currentId && ideas.length > 1) {
-    idx = Math.floor(Math.random() * ideas.length)
+  if (ideas.length === 1) return ideas[0]
+
+  if (currentId) {
+    const candidateIdeas = ideas.filter((idea) => idea.id !== currentId)
+    const idx = Math.floor(Math.random() * candidateIdeas.length)
+    return candidateIdeas[idx]
   }
+
+  const idx = Math.floor(Math.random() * ideas.length)
   return ideas[idx]
 }
 
