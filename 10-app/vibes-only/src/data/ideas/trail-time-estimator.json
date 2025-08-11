@@ -1,0 +1,9 @@
+{
+  "id": "trail-time-estimator",
+  "title": "Trail Time Estimator",
+  "summary": "Estimate hiking duration from distance and elevation using a simple rule-of-thumb.",
+  "objective": "Users enter distance and elevation gain; the app applies Naismith's rule to estimate total time, adds a small buffer, and suggests a start time to finish before a user-entered sunset.",
+  "tags": ["outdoors", "planning", "math"]
+}
+
+

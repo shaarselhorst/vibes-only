@@ -1,0 +1,9 @@
+{
+  "id": "chord-loop-builder",
+  "title": "Chord Loop Builder",
+  "summary": "Generate quick 4-chord loops with tempo and key for music practice sessions.",
+  "objective": "Users pick a key and mood, tap 'Generate' to get a 4-chord progression plus tempo and a basic strum/count pattern; they can lock any chord and re-roll the rest, then use a simple loop timer to practice.",
+  "tags": ["music", "practice", "creativity"]
+}
+
+

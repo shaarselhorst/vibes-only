@@ -1,0 +1,9 @@
+{
+  "id": "outfit-roulette",
+  "title": "Outfit Roulette",
+  "summary": "Shuffle outfit combos from tops, bottoms, and shoes while avoiding recent repeats.",
+  "objective": "Users add a small list of items per category, lock any item, and spin to get a combo; the app tracks recent selections (e.g., 7 days) to reduce repeats and lets users save favorites.",
+  "tags": ["fashion", "daily-life", "fun"]
+}
+
+
