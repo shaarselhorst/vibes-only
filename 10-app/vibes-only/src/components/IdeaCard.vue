@@ -53,7 +53,7 @@ ${idea.tags.join(', ')}
       </button>
 
       <h2 class="text-2xl font-bold text-white pr-16 animate-float">{{ idea.title }}</h2>
-      <p class="mt-2 text-zinc-200">{{ idea.summary }}</p>
+      <p class="mt-2 text-indigo-200 italic">{{ idea.summary }}</p>
       <p class="mt-4 text-zinc-300">{{ idea.objective }}</p>
       <div class="mt-4 flex flex-wrap gap-2">
         <span
