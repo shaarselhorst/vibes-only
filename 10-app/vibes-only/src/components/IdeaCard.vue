@@ -1,7 +1,29 @@
 <script setup lang="ts">
+import { ref, onBeforeUnmount } from 'vue'
 import type { Idea } from '@/types/idea'
 
 defineProps<{ idea: Idea }>()
+
+const showToast = ref(false)
+let toastTimer: ReturnType<typeof setTimeout> | null = null
+
+function showCopiedToast() {
+  if (toastTimer) {
+    clearTimeout(toastTimer)
+    toastTimer = null
+  }
+  showToast.value = true
+  toastTimer = setTimeout(() => {
+    showToast.value = false
+    toastTimer = null
+  }, 2000)
+}
+
+onBeforeUnmount(() => {
+  if (toastTimer) {
+    clearTimeout(toastTimer)
+  }
+})
 
 const copyToClipboard = async (idea: Idea) => {
   const formattedContent = `# ${idea.title}
@@ -18,7 +40,7 @@ ${idea.tags.join(', ')}
 
   try {
     await navigator.clipboard.writeText(formattedContent)
-    // You could add a toast notification here if you want
+    showCopiedToast()
   } catch (err) {
     console.error('Failed to copy to clipboard:', err)
   }
@@ -33,8 +55,10 @@ ${idea.tags.join(', ')}
       <!-- Copy Button -->
       <button
         @click="copyToClipboard(idea)"
-        class="absolute top-4 right-4 p-2 rounded-lg border border-zinc-400/30 bg-zinc-800/60 hover:bg-zinc-700/60 transition-colors duration-200 group hover:animate-glow"
+        class="absolute top-4 right-4 z-20 p-2 rounded-lg border border-zinc-400/30 bg-zinc-800/60 hover:bg-zinc-700/60 transition-colors duration-200 group hover:animate-glow"
         title="Copy idea to clipboard"
+        aria-label="Copy idea to clipboard"
+        type="button"
       >
         <svg
           class="w-5 h-5 text-zinc-300 group-hover:text-white transition-colors duration-200"
@@ -67,9 +91,34 @@ ${idea.tags.join(', ')}
       </div>
       
       <!-- Decorative sparkles -->
-      <div class="absolute -top-2 -left-2 w-2 h-2 bg-yellow-300 rounded-full animate-sparkle"></div>
-      <div class="absolute -top-1 -right-3 w-1.5 h-1.5 bg-pink-300 rounded-full animate-sparkle" style="animation-delay: 0.5s"></div>
-      <div class="absolute -bottom-2 -right-2 w-1 h-1 bg-blue-300 rounded-full animate-sparkle" style="animation-delay: 1s"></div>
+      <div class="pointer-events-none absolute -top-2 -left-2 w-2 h-2 bg-yellow-300 rounded-full animate-sparkle" aria-hidden="true"></div>
+      <div class="pointer-events-none absolute -top-1 -right-3 w-1.5 h-1.5 bg-pink-300 rounded-full animate-sparkle" style="animation-delay: 0.5s" aria-hidden="true"></div>
+      <div class="pointer-events-none absolute -bottom-2 -right-2 w-1 h-1 bg-blue-300 rounded-full animate-sparkle" style="animation-delay: 1s" aria-hidden="true"></div>
+      
+      <!-- Toast: Copy success -->
+      <Transition
+        enter-active-class="transform transition ease-out duration-200"
+        enter-from-class="translate-y-2 opacity-0"
+        enter-to-class="translate-y-0 opacity-100"
+        leave-active-class="transform transition ease-in duration-150"
+        leave-from-class="translate-y-0 opacity-100"
+        leave-to-class="translate-y-2 opacity-0"
+      >
+        <div
+          v-if="showToast"
+          class="fixed bottom-4 right-4 z-50 pointer-events-auto"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+        >
+          <div class="flex items-center gap-2 rounded-lg border border-zinc-700/70 bg-zinc-800/95 px-4 py-3 text-sm text-zinc-100 shadow-xl">
+            <svg class="w-4 h-4 text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 6L9 17l-5-5" />
+            </svg>
+            <span>Copied “{{ idea.title }}” to clipboard</span>
+          </div>
+        </div>
+      </Transition>
   </div>
 </template>
 
