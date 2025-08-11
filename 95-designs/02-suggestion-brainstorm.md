@@ -72,7 +72,7 @@ This app generates **simple, actionable app ideas** that focus on **what** users
   "id": "workout-tracker",
   "title": "Simple Workout Tracker",
   "summary": "Track daily workouts with exercises, sets, and reps.",
-  "objective": "Users can log their workouts by selecting exercises from a predefined list, recording sets and reps, and viewing their workout history. The app should support basic exercises like push-ups, squats, and planks.",
+  "objective": "A simple app where users can log their daily workouts by selecting exercises from a list and recording sets and reps. Users can view their workout history and track basic progress over time.",
   "tags": ["fitness", "tracking", "health"]
 }
 ```
@@ -83,7 +83,7 @@ This app generates **simple, actionable app ideas** that focus on **what** users
   "id": "art-gallery",
   "title": "Personal Art Gallery",
   "summary": "Upload and organize your artwork with descriptions and categories.",
-  "objective": "Users can upload images of their artwork, add titles and descriptions, organize them into categories (paintings, drawings, digital art), and view their collection in a gallery format.",
+  "objective": "A personal gallery app where users can upload images of their artwork, add titles and descriptions, organize them into categories, and view their collection in a simple gallery format.",
   "tags": ["art", "gallery", "organization"]
 }
 ```
@@ -94,7 +94,7 @@ This app generates **simple, actionable app ideas** that focus on **what** users
   "id": "dog-walking-service",
   "title": "Dog Walking Service",
   "summary": "Connect dog owners with local dog walkers.",
-  "objective": "Dog owners can post requests for dog walking services with details like location, time, and dog information. Local walkers can browse requests and offer their services. Basic messaging between owners and walkers.",
+  "objective": "A simple platform where dog owners can post requests for dog walking services with location and time details, and local walkers can browse and respond to these requests.",
   "tags": ["pets", "services", "local"]
 }
 ```
@@ -105,7 +105,7 @@ This app generates **simple, actionable app ideas** that focus on **what** users
   "id": "habit-tracker",
   "title": "Daily Habit Tracker",
   "summary": "Track daily habits and build positive routines.",
-  "objective": "Users can create a list of habits they want to track (exercise, reading, meditation), mark them as completed each day, and view their progress over time with simple charts.",
+  "objective": "A habit tracking app where users can create a list of daily habits, mark them as completed each day, and view their progress over time with simple streak counters.",
   "tags": ["productivity", "habits", "tracking"]
 }
 ```
