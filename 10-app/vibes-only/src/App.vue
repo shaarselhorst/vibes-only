@@ -66,7 +66,7 @@ function toggleTheme() {
     <!-- Particle Effects Canvas -->
     <ParticleEffects ref="particleEffectsRef" />
     
-    <div class="sticky top-0 z-10 border-b border-zinc-200 dark:border-zinc-800 bg-white/80 dark:bg-zinc-900/80 backdrop-blur">
+    <div class="border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900">
       <div class="w-full max-w-3xl mx-auto px-6 py-4 text-center relative">
         <div class="absolute top-4 right-6 flex items-center gap-2">
           <button
