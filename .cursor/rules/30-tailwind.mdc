@@ -1,0 +1,30 @@
+---
+name: Tailwind CSS
+description: Utility-first styling guidelines for Tailwind CSS projects.
+globs:
+  - "10-app/**/*.vue"
+  - "10-app/**/*.html"
+  - "10-app/**/*.css"
+  - "10-app/**/tailwind.config.*"
+---
+
+# Tailwind CSS
+
+## Rules
+- Prefer utilities over custom CSS. Use `@apply` sparingly in extracted component classes when repetition is high.
+- Keep class lists readable. If a class list becomes unwieldy, extract a small presentational component or use variant groups where supported.
+- Ensure accessible focus states with `focus-visible:` and adequate color contrast. Do not remove outlines without providing an accessible replacement.
+- Use responsive and state variants (`sm: md: lg: hover: disabled:`) consistently; design mobile-first.
+- Centralize theme tokens (colors, spacing, radii) in `tailwind.config.*`. Avoid ad-hoc hex values in templates; prefer named theme colors.
+- Avoid global CSS resets beyond Tailwind's base; keep global styles minimal.
+
+## Example
+```html
+<button
+  class="inline-flex items-center rounded-md bg-slate-900 px-4 py-2 text-white shadow-sm hover:bg-slate-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
+  type="button"
+>
+  Start vibing!
+</button>
+```
+

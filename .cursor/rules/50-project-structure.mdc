@@ -1,0 +1,32 @@
+---
+name: Project Structure
+description: Directory layout and naming conventions for small Vue + Vite apps.
+globs:
+  - "10-app/**/*"
+---
+
+# Project Structure
+
+## Rules
+- Organize source under `src/` with these top-level folders when needed:
+  - `components/` reusable UI
+  - `composables/` reusable logic (`useXyz`)
+  - `routes/` or `views/` for page-level components
+  - `assets/` for imported images/fonts (fingerprinted by Vite)
+  - `types/` central TypeScript types
+- Name Vue components in `PascalCase` and composables as `useThing` in `camelCase`.
+- Keep public, raw-served files in `public/` (no imports needed).
+- Prefer small components over deeply nested ones. Extract and reuse instead of adding conditional branches.
+- Keep entry points minimal (`main.ts` bootstraps app, registers plugins, mounts root component only).
+
+## Example
+```text
+src/
+  assets/
+  components/
+  composables/
+  types/
+  App.vue
+  main.ts
+```
+

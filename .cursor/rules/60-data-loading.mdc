@@ -1,0 +1,30 @@
+---
+name: Static Data & Types
+description: Loading static JSON and typing data in Vite + TypeScript.
+globs:
+  - "10-app/**/*.json"
+  - "10-app/**/*.ts"
+---
+
+# Static Data & Types
+
+## Rules
+- Keep static datasets under `public/` (URL fetch) or `src/data/` (bundled via imports). Choose based on whether the data must be hashed/bundled or requested by URL.
+- When importing many files, use `import.meta.glob` and map to typed objects. Avoid `any`; define a shared `types/` interface and assert types safely.
+- Consider validating untrusted JSON at runtime with a small schema validator (e.g., Zod) when inputs are external. Skip validation for trusted, versioned repo data.
+- Avoid network calls for local-only apps; prefer bundling data to ensure offline readiness and determinism.
+
+## Examples
+```ts
+// src/types/idea.ts
+export interface Idea { id: string; title: string; description: string; tags: string[] }
+```
+
+```ts
+// src/data/loadIdeas.ts
+import type { Idea } from '@/types/idea'
+
+const modules = import.meta.glob('/src/data/ideas/*.json', { eager: true }) as Record<string, { default: Idea }>
+export const ideas: Idea[] = Object.values(modules).map(m => m.default)
+```
+

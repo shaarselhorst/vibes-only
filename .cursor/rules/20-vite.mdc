@@ -1,0 +1,36 @@
+---
+name: Vite Build & Runtime
+description: Conventions for Vite projects using Vue + TypeScript.
+globs:
+  - "10-app/**/vite.config.*"
+  - "10-app/**/*.ts"
+  - "10-app/**/*.vue"
+---
+
+# Vite
+
+## Rules
+- Use ESM throughout. Avoid CommonJS `require`. Prefer `import` and dynamic `import()` for code-splitting.
+- Access env vars via `import.meta.env`. Only variables prefixed with `VITE_` should be referenced client-side.
+- Prefer `import.meta.glob` for batch-importing modules or JSON assets. Use `{ eager: true }` only when tree-shaking is not needed.
+- Place static files that must be requested by URL in `public/`; import other assets from `src/assets/` so Vite can hash and optimize them.
+- Configure an alias like `@` to `src` for clean imports (e.g., `@/components/IdeaCard.vue`). Keep import paths stable and avoid deep relative chains.
+- Use dynamic imports for large, rarely used views/components to keep initial bundle small.
+
+## Examples
+```ts
+// vite.config.ts
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+
+export default defineConfig({
+  plugins: [vue()],
+  resolve: { alias: { '@': '/src' } }
+})
+```
+
+```ts
+// Glob import of JSON or modules
+const modules = import.meta.glob('/src/data/**/*.json', { eager: true })
+```
+

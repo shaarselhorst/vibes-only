@@ -1,0 +1,52 @@
+---
+name: Vue 3 + TypeScript SFCs
+description: Best practices for authoring Vue 3 Single File Components with TypeScript.
+globs:
+  - "10-app/**/*.vue"
+  - "10-app/**/*.ts"
+---
+
+# Vue 3 + TypeScript
+
+## Rules
+- Use `<script setup lang="ts">` for all components.
+- Strongly type component API with `defineProps` and `defineEmits`; avoid `any`.
+- Do not mutate props; emit typed events instead. Prefer the `v-model` (`modelValue` + `update:modelValue`) pattern.
+- Use `ref` for primitives, `reactive` for complex objects, and `computed` for derived state. Prefer computed over `watch` when possible.
+- Keep components focused. Extract logic into composables in `src/composables/` and reuse across components.
+- Name components and files in `PascalCase` (e.g., `IdeaCard.vue`) and export a single root component per file.
+- In templates: always set stable `:key` on `v-for`, avoid `v-if` and `v-for` on the same element, and avoid inline arrow functions in bindings.
+- Keep styles minimal; prefer Tailwind utilities over component-scoped CSS.
+
+## Example
+```vue
+<script setup lang="ts">
+interface Idea { id: string; title: string; description: string; tags: string[] }
+
+const props = defineProps<{
+  idea: Idea
+}>()
+
+const emit = defineEmits<{
+  (e: 'select', id: string): void
+}>()
+
+function handleClick() {
+  emit('select', props.idea.id)
+}
+</script>
+
+<template>
+  <article class="rounded-xl border p-4 shadow-sm">
+    <h2 class="text-lg font-semibold">{{ props.idea.title }}</h2>
+    <p class="text-slate-600">{{ props.idea.description }}</p>
+    <button type="button" class="mt-3 inline-flex items-center gap-2 rounded-md bg-black px-3 py-2 text-white hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2"
+            @click="handleClick">
+      Start vibing!
+    </button>
+  </article>
+  
+  <!-- more template content -->
+</template>
+```
+
