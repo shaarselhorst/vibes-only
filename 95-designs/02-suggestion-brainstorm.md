@@ -68,7 +68,40 @@ Ideas should be:
 }
 ```
 
-## 3. Sample Ideas by Category
+## 3. Diversity & Uniqueness Guidelines
+
+### Prevent Similar Ideas
+**DO NOT create multiple variations of the same concept.** Each idea must be fundamentally different from all others.
+
+#### What NOT to do:
+- ❌ Multiple "tracker" apps for different items (plant tracker, water tracker, sleep tracker)
+- ❌ Multiple "finder" apps for different services (restaurant finder, food truck finder, farmer market finder)
+- ❌ Multiple "calculator" apps for different calculations (tip calculator, loan calculator, tax calculator)
+- ❌ Multiple "organizer" apps for different collections (recipe organizer, book organizer, music organizer)
+- ❌ Multiple apps in the same subcategory (multiple food-related apps, multiple audio format apps)
+
+#### What TO do instead:
+- ✅ **Spread across different domains**: After creating a fitness app, move to creative arts, then business, then home management
+- ✅ **Vary the core functionality**: Mix trackers with planners, calculators with organizers, finders with creators
+- ✅ **Explore different user motivations**: Some apps for productivity, some for entertainment, some for learning, some for social connection
+- ✅ **Target different user groups**: Apps for students, professionals, hobbyists, families, seniors, travelers
+
+### Diversity Enforcement Rules
+1. **Maximum 2 ideas per subcategory** before moving to a completely different domain
+2. **No more than 3 ideas with similar core functionality** (e.g., only 3 "tracker" apps total)
+3. **Alternate between major categories** (Hobbies → Business → Daily Life → Creative → etc.)
+4. **Vary the app type**: Mix simple tools, organizers, calculators, planners, and creative apps
+5. **Consider different complexity levels**: Some very simple, some slightly more involved (but still one-hour achievable)
+
+### Category Rotation Strategy
+When generating ideas, follow this pattern:
+1. **Start with a major category** (e.g., Sports & Fitness)
+2. **Create 1-2 ideas** in that category
+3. **Jump to a completely different major category** (e.g., Creative Arts)
+4. **Create 1-2 ideas** in the new category
+5. **Continue rotating** through all major categories before repeating
+
+## 4. Sample Ideas by Category
 
 ### Sports & Fitness
 ```typescript
@@ -114,7 +147,7 @@ Ideas should be:
 }
 ```
 
-## 4. Idea Generation Guidelines
+## 5. Idea Generation Guidelines
 
 ### Keep It Simple
 - **Single purpose**: One main function per app
@@ -136,6 +169,14 @@ Ideas should be:
 - **Well-defined data**: Clear data structures and relationships
 - **One-hour feasibility**: AI must be able to generate working code within 60 minutes
 
+### Diversity Checklist (MUST CHECK BEFORE CREATING EACH IDEA)
+Before creating any new idea, verify:
+- [ ] This idea is in a different major category than the last 2-3 ideas
+- [ ] This idea has different core functionality than existing ideas
+- [ ] This idea targets a different user motivation or use case
+- [ ] This idea explores a new domain or interest area
+- [ ] This idea doesn't duplicate the pattern of recent ideas
+
 ---
 
-*Remember: The goal is to inspire users to build something meaningful to them, not to overwhelm them with complex requirements. Every idea should feel achievable and exciting.*
+*Remember: The goal is to inspire users to build something meaningful to them, not to overwhelm them with complex requirements. Every idea should feel achievable and exciting.

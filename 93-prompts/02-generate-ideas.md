@@ -1,7 +1,7 @@
-# Generate 3 Creative App Ideas
+# Generate 10 Creative App Ideas
 
 ## Task
-Generate 3 unique, creative app ideas that follow our one-hour development constraint. Each idea should be in its own JSON file in the `data/ideas/` directory.
+Generate 10 unique, creative app ideas that follow our one-hour development constraint. Each idea should be in its own JSON file in the `data/ideas/` directory.
 
 ## Context
 You are using our **App Idea Generation Framework** (see `95-designs/02-suggestion-brainstorm.md` for complete guidelines and constraints).
@@ -69,4 +69,4 @@ Before creating each idea, ask yourself:
 5. Would someone actually want to use this?
 
 ## Start Creating
-Now generate 3 creative, one-hour-scoped app ideas. Make each one unique, interesting, and immediately actionable for users with specific interests or daily challenges.
+Now generate 10 creative, one-hour-scoped app ideas. Make each one unique, interesting, and immediately actionable for users with specific interests or daily challenges.
