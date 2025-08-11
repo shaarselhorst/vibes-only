@@ -20,7 +20,7 @@ onMounted(() => {
 })
 
 function addNextIdea() {
-  const exclude = currentIdeas.value.map((i) => i.id)
+  const exclude = currentIdeas.value.map((i: Idea) => i.id)
   const next = chooseNextIdeaExcluding(exclude)
   if (!next) return
   // Add new idea to the top; cap at 3
@@ -66,7 +66,7 @@ function toggleTheme() {
     <!-- Particle Effects Canvas -->
     <ParticleEffects ref="particleEffectsRef" />
     
-    <div class="border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900">
+    <div class="border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 rounded-2xl">
       <div class="w-full max-w-3xl mx-auto px-6 py-4 text-center relative">
         <div class="absolute top-4 right-6 flex items-center gap-2">
           <button
