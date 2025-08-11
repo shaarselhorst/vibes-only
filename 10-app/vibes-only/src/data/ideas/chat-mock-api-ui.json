@@ -1,0 +1,8 @@
+{
+  "id": "chat-mock-api-ui",
+  "title": "Chat UI on a Mock API",
+  "description": "Build a chat interface that consumes a mocked REST endpoint. Use your AI editor to scaffold components and state.",
+  "tags": ["frontend", "state"]
+}
+
+

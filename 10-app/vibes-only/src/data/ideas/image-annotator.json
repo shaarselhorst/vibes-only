@@ -1,0 +1,8 @@
+{
+  "id": "image-annotator",
+  "title": "Simple Image Annotator",
+  "description": "Let users upload an image and draw rectangles with labels. Save annotations locally.",
+  "tags": ["canvas", "ux"]
+}
+
+
