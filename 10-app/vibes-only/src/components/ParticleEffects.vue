@@ -101,15 +101,17 @@ const animate = () => {
   animationId.value = requestAnimationFrame(animate)
 }
 
+const triggerEffectsAt = (x: number, y: number) => {
+  createConfetti(x, y)
+  createSparkles(x, y)
+}
+
 const triggerEffects = () => {
   if (!canvasRef.value) return
-  
   const rect = canvasRef.value.getBoundingClientRect()
   const centerX = rect.width / 2
   const centerY = rect.height / 2
-  
-  createConfetti(centerX, centerY)
-  createSparkles(centerX, centerY)
+  triggerEffectsAt(centerX, centerY)
 }
 
 onMounted(() => {
@@ -140,7 +142,8 @@ onUnmounted(() => {
 
 // Expose the trigger function
 defineExpose({
-  triggerEffects
+  triggerEffects,
+  triggerEffectsAt
 })
 </script>
 

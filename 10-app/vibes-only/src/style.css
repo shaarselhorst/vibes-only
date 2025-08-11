@@ -129,6 +129,19 @@ button:focus-visible {
   animation: bounce-in 0.6s ease-out;
 }
 
+/* Group transition for idea list so all cards animate together on insert/remove */
+.idea-list-move,
+.idea-list-enter-active,
+.idea-list-leave-active {
+  transition: all 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.idea-list-enter-from,
+.idea-list-leave-to {
+  opacity: 0;
+  transform: translateX(40px) scale(0.98);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

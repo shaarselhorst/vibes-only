@@ -3,26 +3,43 @@ import { ref, onMounted } from 'vue'
 import VibeButton from '@/components/VibeButton.vue'
 import IdeaCard from '@/components/IdeaCard.vue'
 import ParticleEffects from '@/components/ParticleEffects.vue'
-import { chooseNextIdea } from '@/data/loadIdeas'
+import { chooseNextIdeaExcluding } from '@/data/loadIdeas'
 import type { Idea } from '@/types/idea'
 
-const currentIdea = ref<Idea | null>(null)
+const currentIdeas = ref<Idea[]>([])
 const particleEffectsRef = ref<InstanceType<typeof ParticleEffects>>()
 
-// Generate initial idea on component mount
+// Generate initial ideas on component mount (up to 3)
 onMounted(() => {
-  currentIdea.value = chooseNextIdea()
+  for (let i = 0; i < 3; i++) {
+    addNextIdea()
+  }
 })
 
+function addNextIdea() {
+  const exclude = currentIdeas.value.map((i) => i.id)
+  const next = chooseNextIdeaExcluding(exclude)
+  if (!next) return
+  // Add new idea to the top; cap at 3
+  currentIdeas.value = [next, ...currentIdeas.value].slice(0, 3)
+}
+
 function onStartVibing() {
-  // Trigger particle effects first
   if (particleEffectsRef.value) {
-    particleEffectsRef.value.triggerEffects()
+    // Fire effects only at the top card (first visible)
+    const firstCard = document.querySelector('[data-idea-card-root]') as HTMLElement | null
+    if (firstCard) {
+      const rect = firstCard.getBoundingClientRect()
+      const x = rect.left + rect.width / 2
+      const y = rect.top + rect.height / 2
+      particleEffectsRef.value.triggerEffectsAt(x, y)
+    } else {
+      // Fallback to center if no card yet
+      particleEffectsRef.value.triggerEffects()
+    }
   }
-  
-  // Small delay to let effects start before changing idea
   setTimeout(() => {
-    currentIdea.value = chooseNextIdea(currentIdea.value?.id)
+    addNextIdea()
   }, 100)
 }
 </script>
@@ -48,7 +65,7 @@ function onStartVibing() {
         </a>
         
         <h1 class="text-4xl font-extrabold tracking-tight text-white">Vibes Only</h1>
-        <p v-if="!currentIdea" class="mt-2 text-zinc-300">Click the button to get a project idea.</p>
+        <p v-if="currentIdeas.length === 0" class="mt-2 text-zinc-300">Click the button to get project ideas.</p>
 
         <div class="mt-4">
           <VibeButton @click="onStartVibing" />
@@ -57,7 +74,9 @@ function onStartVibing() {
     </div>
 
     <div class="w-full max-w-3xl mx-auto px-6">
-      <IdeaCard v-if="currentIdea" :idea="currentIdea" />
+      <TransitionGroup name="idea-list" tag="div" class="flex flex-col py-2">
+        <IdeaCard v-for="idea in currentIdeas" :key="idea.id" :idea="idea" />
+      </TransitionGroup>
     </div>
   </main>
 </template>

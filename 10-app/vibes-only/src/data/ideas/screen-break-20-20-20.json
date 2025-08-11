@@ -1,0 +1,9 @@
+{
+  "id": "screen-break-20-20-20",
+  "title": "20-20-20 Screen Break Coach",
+  "summary": "Prompt 20-second eye breaks every 20 minutes with a subtle timer.",
+  "objective": "Users start a session; the timer cycles 20 minutes of work and 20 seconds of break with a gentle cue, shows completed breaks, and offers a quick snooze.",
+  "tags": ["health", "productivity", "wellness"]
+}
+
+

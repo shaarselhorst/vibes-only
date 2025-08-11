@@ -1,0 +1,9 @@
+{
+  "id": "pantry-restock-radar",
+  "title": "Pantry Restock Radar",
+  "summary": "Track staple pantry items with low-stock flags and a copyable grocery list.",
+  "objective": "Users add staples with a minimum level and tap +/– as they use items; the app shows a low-stock list and provides a one-tap copy of items to restock.",
+  "tags": ["home", "food", "shopping"]
+}
+
+

@@ -1,0 +1,9 @@
+{
+  "id": "golden-hour-planner",
+  "title": "Golden Hour Planner",
+  "summary": "See today's golden and blue hour times for your location with quick reminders.",
+  "objective": "Users allow location or enter a city; the app shows upcoming golden/blue hour windows, sunrise/sunset overview, and a one-tap 'remind me 10 min before' toggle.",
+  "tags": ["photography", "outdoors", "time"]
+}
+
+

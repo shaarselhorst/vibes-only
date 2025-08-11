@@ -1,0 +1,9 @@
+{
+  "id": "portion-converter",
+  "title": "Portion Converter",
+  "summary": "Scale recipes up or down by servings and auto-adjust ingredient amounts.",
+  "objective": "Users enter original servings and desired servings; the app scales ingredient quantities (with common unit handling) and offers one-tap copy of the adjusted list.",
+  "tags": ["cooking", "kitchen", "tools"]
+}
+
+

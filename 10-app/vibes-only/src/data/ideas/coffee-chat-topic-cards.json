@@ -1,0 +1,9 @@
+{
+  "id": "coffee-chat-topic-cards",
+  "title": "Coffee Chat Topic Cards",
+  "summary": "Deal 3 conversation prompts by theme for quick, relaxed chats.",
+  "objective": "Users pick a theme (career, hobbies, learning); the app deals three prompts, allows reshuffle, and lets users star favorites for later.",
+  "tags": ["social", "networking", "communication"]
+}
+
+

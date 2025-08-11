@@ -1,0 +1,9 @@
+{
+  "id": "gift-idea-stash",
+  "title": "Gift Idea Stash",
+  "summary": "Save gift ideas per person with budget, interests, and occasions.",
+  "objective": "Users add contacts and ideas with price and notes; the app groups by upcoming occasions, marks purchased items, and totals against a set budget.",
+  "tags": ["gifting", "relationships", "planning"]
+}
+
+

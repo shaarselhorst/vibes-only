@@ -26,15 +26,10 @@ ${idea.tags.join(', ')}
 </script>
 
 <template>
-  <Transition
-    name="idea-swoosh"
-    mode="out-in"
-    appear
+  <div 
+    class="mt-8 mx-auto w-full max-w-2xl rounded-2xl border border-zinc-200/20 bg-zinc-900/60 p-6 shadow-xl backdrop-blur relative"
+    data-idea-card-root
   >
-    <div 
-      :key="idea.id"
-      class="mt-8 mx-auto w-full max-w-2xl rounded-2xl border border-zinc-200/20 bg-zinc-900/60 p-6 shadow-xl backdrop-blur relative"
-    >
       <!-- Copy Button -->
       <button
         @click="copyToClipboard(idea)"
@@ -75,8 +70,7 @@ ${idea.tags.join(', ')}
       <div class="absolute -top-2 -left-2 w-2 h-2 bg-yellow-300 rounded-full animate-sparkle"></div>
       <div class="absolute -top-1 -right-3 w-1.5 h-1.5 bg-pink-300 rounded-full animate-sparkle" style="animation-delay: 0.5s"></div>
       <div class="absolute -bottom-2 -right-2 w-1 h-1 bg-blue-300 rounded-full animate-sparkle" style="animation-delay: 1s"></div>
-    </div>
-  </Transition>
+  </div>
 </template>
 
 <style scoped>

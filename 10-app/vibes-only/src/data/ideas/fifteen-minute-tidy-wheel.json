@@ -1,0 +1,9 @@
+{
+  "id": "fifteen-minute-tidy-wheel",
+  "title": "15-Minute Tidy Wheel",
+  "summary": "Spin a quick tidy task for a single room and run a 15-minute timer.",
+  "objective": "Users select rooms to include; spinning picks a simple task and starts a 15-minute timer, tracking a daily streak for quick home resets.",
+  "tags": ["home", "cleaning", "habits"]
+}
+
+

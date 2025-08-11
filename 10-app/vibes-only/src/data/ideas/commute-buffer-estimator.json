@@ -1,0 +1,9 @@
+{
+  "id": "commute-buffer-estimator",
+  "title": "Commute Buffer Estimator",
+  "summary": "Suggest a leave-by time with a buffer based on typical commute duration.",
+  "objective": "Users set a desired arrival time and a base commute duration; the app adds a configurable buffer, shows the leave-by time, and indicates margin of error.",
+  "tags": ["travel", "time", "planning"]
+}
+
+

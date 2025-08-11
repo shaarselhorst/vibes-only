@@ -18,4 +18,13 @@ export function chooseNextIdea(currentId?: string): Idea | null {
   return ideas[idx]
 }
 
+// Choose a random idea excluding any whose id appears in excludeIds
+export function chooseNextIdeaExcluding(excludeIds: string[] = []): Idea | null {
+  if (ideas.length === 0) return null
+  const candidateIdeas = ideas.filter((idea) => !excludeIds.includes(idea.id))
+  if (candidateIdeas.length === 0) return null
+  const idx = Math.floor(Math.random() * candidateIdeas.length)
+  return candidateIdeas[idx]
+}
+
 

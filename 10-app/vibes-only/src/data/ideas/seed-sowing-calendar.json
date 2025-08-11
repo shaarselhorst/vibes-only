@@ -1,0 +1,9 @@
+{
+  "id": "seed-sowing-calendar",
+  "title": "Seed Sowing Calendar",
+  "summary": "Plan indoor/outdoor sow dates based on last frost for a few common crops.",
+  "objective": "Users set a frost date or location; selecting crops shows sow/transfer windows and a small 'today' task list for what to start now.",
+  "tags": ["gardening", "planning", "outdoors"]
+}
+
+

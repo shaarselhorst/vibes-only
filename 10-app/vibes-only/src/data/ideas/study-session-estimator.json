@@ -1,0 +1,9 @@
+{
+  "id": "study-session-estimator",
+  "title": "Study Session Estimator",
+  "summary": "Estimate how many sessions you need per topic before an exam date.",
+  "objective": "Users add topics with estimated hours and choose days per week available; the app suggests session counts/lengths and spreads them across weeks simply.",
+  "tags": ["education", "planning", "time"]
+}
+
+

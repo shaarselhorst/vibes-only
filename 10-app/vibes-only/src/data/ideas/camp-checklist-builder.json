@@ -1,0 +1,9 @@
+{
+  "id": "camp-checklist-builder",
+  "title": "Camp Checklist Builder",
+  "summary": "Generate a camping checklist by trip length, style, and weather.",
+  "objective": "Users choose car-camping or backpacking, nights, and weather; the app builds a checklist grouped by shelter, sleep, kitchen, clothing, and essentials, with check-off and save.",
+  "tags": ["outdoors", "camping", "planning"]
+}
+
+

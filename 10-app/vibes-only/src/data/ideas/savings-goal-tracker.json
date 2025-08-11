@@ -1,0 +1,9 @@
+{
+  "id": "savings-goal-tracker",
+  "title": "Savings Goal Tracker",
+  "summary": "Track progress toward a savings goal and see required per-month contributions.",
+  "objective": "Users set a goal amount and target date or monthly amount; the app computes the other value, shows a progress bar, and estimates completion date.",
+  "tags": ["finance", "budget", "planning"]
+}
+
+

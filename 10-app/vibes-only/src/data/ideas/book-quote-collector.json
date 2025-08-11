@@ -1,0 +1,9 @@
+{
+  "id": "book-quote-collector",
+  "title": "Book Quote Collector",
+  "summary": "Save memorable quotes with book title, author, and page for quick recall.",
+  "objective": "Users paste a quote, add source details and tags; the app supports quick copy, a random quote button, and a simple export of all saved quotes.",
+  "tags": ["reading", "learning", "writing"]
+}
+
+
