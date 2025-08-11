@@ -2,13 +2,16 @@
 
 ## Core Philosophy
 
-This app generates **simple, actionable app ideas** that focus on **what** users want to build, not **how** to build it. Ideas should be:
+This app generates **simple, actionable app ideas** that focus on **what** users want to build, not **how** to build it. **Each idea should be achievable by an AI coding agent within one hour** - this is our fundamental constraint.
+
+Ideas should be:
 
 - **AI-understandable**: Simple enough for AI to generate code from
 - **Single-page or few-page apps**: No complex multi-screen applications
 - **Technology-agnostic**: Focus on functionality, not implementation details
 - **Immediately actionable**: Users can start building today
 - **Interest-driven**: Based on hobbies, industries, and personal passions
+- **One-hour scope**: Complete, functional apps that can be built in a single coding session
 
 ## 1. Comprehensive Categories & Interests
 
@@ -41,10 +44,11 @@ This app generates **simple, actionable app ideas** that focus on **what** users
 
 ### What an Idea Should Include
 - **Clear purpose**: What problem does it solve?
-- **Simple scope**: 1-3 main features maximum
+- **Simple scope**: 1-3 main features maximum (achievable in one hour)
 - **User actions**: What can users do with it?
 - **Data elements**: What information is relevant?
 - **Real-world context**: How does it fit into daily life?
+- **Time constraint**: Must be completable by AI within one hour
 
 ### What an Idea Should NOT Include
 - **Technology specifications**: No mention of web/mobile/desktop
@@ -114,9 +118,10 @@ This app generates **simple, actionable app ideas** that focus on **what** users
 
 ### Keep It Simple
 - **Single purpose**: One main function per app
-- **Minimal features**: 3-5 features maximum
+- **Minimal features**: 2-3 features maximum (one-hour constraint)
 - **Clear user flow**: Linear, straightforward user experience
 - **Familiar patterns**: Use common UI patterns users already know
+- **Rapid development**: Every feature must be implementable in minutes, not hours
 
 ### Make It Actionable
 - **Immediate value**: Users can see benefit from first use
@@ -129,6 +134,7 @@ This app generates **simple, actionable app ideas** that focus on **what** users
 - **Standard patterns**: Common app structures and workflows
 - **Limited scope**: Manageable complexity for code generation
 - **Well-defined data**: Clear data structures and relationships
+- **One-hour feasibility**: AI must be able to generate working code within 60 minutes
 
 ---
 
