@@ -1,0 +1,9 @@
+{
+  "id": "classroom-name-picker",
+  "title": "Classroom Name Picker",
+  "summary": "Randomly select students without repeats and form quick groups.",
+  "objective": "Teachers paste a list of names; the app picks a random student without repeating until reset, can create groups of N, and shows who hasn't been picked yet.",
+  "tags": ["education", "classroom", "tools"]
+}
+
+

@@ -1,0 +1,9 @@
+{
+  "id": "paint-coverage-calculator",
+  "title": "Paint Coverage Calculator",
+  "summary": "Estimate paint cans needed from room dimensions and coats.",
+  "objective": "Users enter wall dimensions, door/window areas, coats, and coverage per can; the app calculates total area, subtracts openings, and suggests cans with a small buffer.",
+  "tags": ["home", "DIY", "math"]
+}
+
+

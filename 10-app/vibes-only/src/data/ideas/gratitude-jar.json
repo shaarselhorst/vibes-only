@@ -1,0 +1,9 @@
+{
+  "id": "gratitude-jar",
+  "title": "Gratitude Jar",
+  "summary": "Drop in one-line gratitude notes and get a random reminder later.",
+  "objective": "Users add short entries tagged by day; the app shows today's note count, a random past note on open, and a weekly streak indicator to encourage consistency.",
+  "tags": ["wellness", "journaling", "habits"]
+}
+
+

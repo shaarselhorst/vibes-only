@@ -1,0 +1,9 @@
+{
+  "id": "pet-care-scheduler",
+  "title": "Pet Care Scheduler",
+  "summary": "Plan pet meds, feeding, and walks with simple recurring reminders.",
+  "objective": "Users add a pet with tasks (meds, feed, walk) and intervals; the app shows what's due today, a one-tap 'done' to reset, and a minimal history for the last few days.",
+  "tags": ["pets", "daily-life", "health"]
+}
+
+
