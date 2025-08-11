@@ -7,6 +7,9 @@ defineProps<{ idea: Idea }>()
 const showToast = ref(false)
 let toastTimer: ReturnType<typeof setTimeout> | null = null
 
+// Randomize title animation start so cards don't bounce in sync
+const titleAnimationDelay = `${(-Math.random() * 2).toFixed(2)}s`
+
 function showCopiedToast() {
   if (toastTimer) {
     clearTimeout(toastTimer)
@@ -76,7 +79,7 @@ ${idea.tags.join(', ')}
         </svg>
       </button>
 
-      <h2 class="text-2xl font-bold text-white pr-16 animate-float">{{ idea.title }}</h2>
+      <h2 class="text-2xl font-bold text-white pr-16 animate-float" :style="{ animationDelay: titleAnimationDelay }">{{ idea.title }}</h2>
       <p class="mt-2 text-indigo-200 italic">{{ idea.summary }}</p>
       <p class="mt-4 text-zinc-300">{{ idea.objective }}</p>
       <div class="mt-4 flex flex-wrap gap-2">
