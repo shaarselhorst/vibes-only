@@ -1,0 +1,9 @@
+{
+  "id": "coin-flip-bankroll",
+  "title": "Coin Flip Bankroll",
+  "summary": "Track coin-flip bets with quick stake presets and streak stats for casual probability fun.",
+  "objective": "Users log 'heads' or 'tails' results, set a virtual bankroll and unit size, and see streaks, win rate, and bankroll curve—no real money or odds, just a playful statistics tracker.",
+  "tags": ["games", "math", "stats", "fun"]
+}
+
+

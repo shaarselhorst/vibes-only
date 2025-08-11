@@ -1,0 +1,9 @@
+{
+  "id": "recipe-cost-calculator",
+  "title": "Recipe Cost Calculator",
+  "summary": "Estimate per-serving costs by entering ingredients with price and quantity.",
+  "objective": "Users add ingredients with unit price and amount used; the app totals recipe cost, divides by servings, and highlights priciest ingredients to optimize shopping.",
+  "tags": ["cooking", "budget", "education"]
+}
+
+

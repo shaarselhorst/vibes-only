@@ -1,0 +1,9 @@
+{
+  "id": "parking-spot-memory",
+  "title": "Parking Spot Memory",
+  "summary": "Save your parking spot with floor/zone labels and a quick 'navigate back' link.",
+  "objective": "Users tap 'Save Spot' to store a text label (e.g., B2 - Blue Zone) and timestamp; the app shows time parked and provides a one-tap copy of the label to clipboard for navigation apps.",
+  "tags": ["travel", "daily-life", "navigation"]
+}
+
+

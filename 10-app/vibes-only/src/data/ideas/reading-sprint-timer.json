@@ -1,0 +1,9 @@
+{
+  "id": "reading-sprint-timer",
+  "title": "Reading Sprint Timer",
+  "summary": "Run 15–30 minute reading sprints with a gentle end chime and page logging.",
+  "objective": "Users set a sprint length and starting page; the app counts down, chimes, and records pages read with a streak indicator to encourage daily reading.",
+  "tags": ["learning", "habits", "timer"]
+}
+
+

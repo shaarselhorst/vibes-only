@@ -1,0 +1,9 @@
+{
+  "id": "plant-watering-tracker",
+  "title": "Plant Watering Tracker",
+  "summary": "Log watering dates and suggested intervals per plant with a simple due-soon list.",
+  "objective": "Users add plants, choose a watering interval, and tap 'watered' to reset; the app shows which plants are due today or soon and keeps a minimal history per plant.",
+  "tags": ["hobby", "gardening", "habit"]
+}
+
+
