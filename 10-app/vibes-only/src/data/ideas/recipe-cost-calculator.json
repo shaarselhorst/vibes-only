@@ -1,0 +1,7 @@
+{
+  "id": "recipe-cost-calculator",
+  "title": "Recipe Cost Calculator",
+  "summary": "Calculate the total cost of your favorite recipes to budget your meals effectively.",
+  "objective": "A budgeting app for home cooks where users can input recipe ingredients with quantities and current prices, then calculate the total cost per recipe and cost per serving. Helps users make informed decisions about meal planning and grocery shopping.",
+  "tags": ["cooking", "budgeting", "finance", "food", "planning"]
+}

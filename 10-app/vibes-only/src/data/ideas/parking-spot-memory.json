@@ -1,0 +1,7 @@
+{
+  "id": "parking-spot-memory",
+  "title": "Parking Spot Memory",
+  "summary": "Remember where you parked your car with this simple location tracker.",
+  "objective": "A location memory app where users can save their current parking location with a single tap, add notes about the parking area, and get directions back to their car. Perfect for people who frequently forget where they parked in large lots or unfamiliar areas.",
+  "tags": ["parking", "location", "memory", "daily-life", "navigation"]
+}
