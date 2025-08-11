@@ -1,6 +1,6 @@
-## AI Execution Prompt: Build the MVP for “Vibes Only”
+## AI Execution Prompt: Complete the MVP for “Vibes Only” using the existing Vue 3 + Tailwind 4.1 app
 
-You are an AI coding assistant working in this repository on Windows PowerShell. Build the single‑page app MVP as specified in `95-todo/TODO.md`.
+You are an AI coding assistant working in this repository on Windows PowerShell. Build the single‑page app MVP as specified in `95-todo/TODO.md`, leveraging the already‑working app under `10-app/vibes-only` (Vue 3 + Vite + Tailwind CSS 4.1).
 
 Follow these workspace rules:
 - 10-vue-typescript
@@ -9,15 +9,26 @@ Follow these workspace rules:
 - 50-project-structure
 - 60-data-loading
 
-Key decisions:
-- Store idea JSON under `src/data/ideas/` to enable `import.meta.glob` bundling at startup (preferred over `public/` for this use case per 60-data-loading).
-- Use Vue 3 + TypeScript, Tailwind, Vite; add an `@` alias to `src`.
+Context and key decisions:
+- The project at `10-app/vibes-only` is already scaffolded with Vue 3, Vite 7, TypeScript, and Tailwind 4.1 via `@tailwindcss/vite`. Do not re‑scaffold; extend the existing app.
+- Store idea JSON under `src/data/ideas/` to enable `import.meta.glob` bundling at startup (preferred over `public/` per 60-data-loading).
+- Use an `@` alias to `src` for imports across app code and data loading.
+
+### Setup verification (adjust if missing)
+
+- Tailwind 4.1 is enabled via the Vite plugin. Ensure Tailwind utilities are loaded by adding the following at the very top of `src/style.css` (keep other styles below if desired):
+  ```css
+  @import "tailwindcss";
+  ```
+  Make sure `src/main.ts` imports `./style.css` and that the Vite plugin `@tailwindcss/vite` is present in `vite.config.ts`.
+
+- Add the `@` alias:
+  - Update `vite.config.ts` to resolve `@` to `src`.
+  - Mirror the alias in `tsconfig.app.json` (compilerOptions.paths) per 20-vite.
 
 ### Tasks
 
-1) Scaffold app under `10-app/vibes-only`
-
-2) Data model and loading
+1) Data model and loading
 - Create `src/types/idea.ts`:
   ```ts
   export interface Idea { id: string; title: string; description: string; tags: string[] }
@@ -40,18 +51,20 @@ Key decisions:
   }
   ```
 
-3) UI components
-- `src/components/VibeButton.vue` using `<script setup lang="ts">`, emits `click`, styled with Tailwind.
+2) UI components
+- `src/components/VibeButton.vue` using `<script setup lang="ts">`, emits `click`, styled with Tailwind (large, prominent button with accessible focus styles).
 - `src/components/IdeaCard.vue` that accepts a typed `idea` prop and displays title, description, and tag pills.
-- `src/App.vue`:
-  - Import `ideas` and `chooseNextIdea`.
-  - Minimal state: current idea ref; on click, pick random idea with immediate repeat guard.
-  - Layout: centered column; large primary button labeled “Start vibing!”; result card below; accessible focus states.
 
-4) Wiring and polish
-- `src/main.ts` mounts `App.vue` and imports `tailwind.css`.
+3) App wiring
+- Update `src/App.vue`:
+  - Import `ideas` and `chooseNextIdea` from `@/data/loadIdeas`.
+  - Keep minimal state: a `ref<Idea | null>` for the current idea; on click, pick a random idea with immediate‑repeat guard.
+  - Layout with Tailwind utilities: centered column; large primary button labeled “Start vibing!”; result card below; accessible focus states.
+
+4) Polish and constraints
+- `src/main.ts` should mount `App.vue` and import `src/style.css` which in turn imports Tailwind.
 - Ensure no network calls except static asset loading; no persistence.
-- Keep code TypeScript-first, typed `defineProps/defineEmits`, no `any`.
+- Keep code TypeScript‑first, typed `defineProps/defineEmits`, no `any`.
 - Match 50-project-structure guidelines.
 
 ### Commands (PowerShell, non-interactive)
@@ -60,7 +73,7 @@ Note: Use non-interactive defaults; do not pause for prompts.
 
 ### Acceptance criteria (must meet all)
 - `npm run dev` starts without errors.
-- Page shows a prominent “Start vibing!” button.
+- Page shows a prominent “Start vibing!” button (Tailwind utilities visible; focus ring accessible).
 - App loads and aggregates all `src/data/ideas/*.json` at startup via `import.meta.glob`.
 - Clicking the button shows a random idea with no immediate repeats.
 - No backend; no external network calls.
