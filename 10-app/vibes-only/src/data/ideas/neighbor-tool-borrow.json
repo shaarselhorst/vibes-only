@@ -1,0 +1,9 @@
+{
+  "id": "neighbor-tool-borrow",
+  "title": "Neighbor Tool Borrow List",
+  "summary": "Track borrowed tools with owner, condition, and due-back date.",
+  "objective": "Users log items borrowed or lent with contact info and due dates; the app highlights overdue items and provides a one-tap message template to return or extend.",
+  "tags": ["community", "organization", "local"]
+}
+
+

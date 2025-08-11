@@ -1,0 +1,9 @@
+{
+  "id": "color-palette-prompt",
+  "title": "Color Palette Prompt",
+  "summary": "Generate simple 5-color palettes from vibe words like 'cozy' or 'neon'.",
+  "objective": "Users enter 1–3 vibe words; the app maps to preset hue sets and shows a 5-swatch palette with copyable hex codes and a shuffle button to tweak variety.",
+  "tags": ["design", "creative", "tools"]
+}
+
+

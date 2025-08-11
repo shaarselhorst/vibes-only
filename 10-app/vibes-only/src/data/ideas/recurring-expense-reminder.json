@@ -1,0 +1,9 @@
+{
+  "id": "recurring-expense-reminder",
+  "title": "Recurring Expense Reminder",
+  "summary": "List monthly charges and see next bill dates with gentle reminders.",
+  "objective": "Users enter expense name, amount, and cadence; the app shows upcoming bills for the month, totals by week, and highlights which ones hit in the next 3 days.",
+  "tags": ["finance", "budget", "planning"]
+}
+
+

@@ -1,0 +1,9 @@
+{
+  "id": "fridge-expiry-tracker",
+  "title": "Fridge Expiry Tracker",
+  "summary": "Log groceries with 'days left' and see what's expiring soon.",
+  "objective": "Users add items with a date or days-to-expiry; the app shows a sorted 'expiring soon' list, quick 'used' or 'toss' actions, and one-tap +1 day adjustment.",
+  "tags": ["home", "food", "organization"]
+}
+
+

@@ -1,0 +1,9 @@
+{
+  "id": "game-backlog-roulette",
+  "title": "Game Backlog Roulette",
+  "summary": "Spin to pick a game from your backlog with playtime and mood filters.",
+  "objective": "Users add games with estimated hours and tags; the app filters by mood/time window and randomly selects one, avoiding recent repeats and tracking sessions.",
+  "tags": ["gaming", "entertainment", "fun"]
+}
+
+
