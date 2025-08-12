@@ -39,6 +39,8 @@ ${idea.objective}
 
 ## Tags
 ${idea.tags.join(', ')}
+
+---
 `
 
   try {
