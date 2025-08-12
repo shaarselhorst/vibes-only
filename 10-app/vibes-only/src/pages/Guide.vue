@@ -50,23 +50,34 @@ import TopBar from '@/components/TopBar.vue'
           <ul class="mt-2 list-disc pl-5 space-y-2">
             <li>Ask the AI to initialize with your preferred stack.</li>
             <li>Let the AI pick the stack entirely.</li>
-            <li><strong>Manually scaffold a “Hello World”</strong> (often easiest): for rigid platforms (e.g., Android/iOS), use official templates;
-              for the web, consider a Vue 3 + Vite + Tailwind setup (as this site does).
+            <li>Manually initalize a “Hello World”: for rigid platforms (e.g., Android/iOS), use official templates;
+              for the web, consider a Vue 3/React/Svelte/Solid/etc. + Vite + Tailwind setup (as this site does).
             </li>
           </ul>
         </li>
         <li class="text-zinc-800 dark:text-zinc-200"><strong>Why pre-bootstrapping helps</strong>:
           <ul class="mt-2 list-disc pl-5 space-y-2">
             <li>The AI can read your file structure and scripts, so it proposes changes in the right places.</li>
-            <li>Locked-in dependency versions reduce “works on my machine” issues.</li>
-            <li>It’s immediately runnable, so you can test and iterate faster.</li>
+            <li>Locked-in dependency versions.</li>
+            <li>If you can confirm it can run, before AI making changes to it, it's easier to iterate.</li>
           </ul>
         </li>
       </ol>
 
-      <h3 class="mt-6 text-lg font-medium text-zinc-900 dark:text-zinc-100">Once bootstrapped</h3>
+      <h3 class="mt-6 text-lg font-medium text-zinc-900 dark:text-zinc-100">Creating the app</h3>
+      <p class="mt-3 text-zinc-700 dark:text-zinc-300">
+        Create a <code>TODO.md</code> that uses your <code>DESIGN.md</code> to create concrete technical requirements.
+        Specify the kind of app you’re building and
+        define a minimal MVP with prioritized features, acceptance criteria, and constraints. If you’ve already bootstrapped a project, let the AI analyze the codebase and tailor its
+        suggestions to that stack. Describe the bare-bones version first—for this site, the MVP was a
+        single button that selected an idea from JSON files and displayed it. If you think you are ready, write a prompt to execute the TODO.md.
+        
+        From there, iterate: enhance the UI, add
+        and layer small features and UX improvements. Decide what you want to see and then grow it incrementally.
+      </p>
+
+      <h3 class="mt-6 text-lg font-medium text-zinc-900 dark:text-zinc-100">Expanding</h3>
       <ul class="mt-3 list-disc pl-5 space-y-2">
-        <li class="text-zinc-800 dark:text-zinc-200">Describe a tight MVP scope and success criteria.</li>
         <li class="text-zinc-800 dark:text-zinc-200">Ask the AI to implement features incrementally; run the app after each edit.</li>
         <li class="text-zinc-800 dark:text-zinc-200">Prefer simple, boring solutions over clever abstractions.</li>
         <li class="text-zinc-800 dark:text-zinc-200">If the AI gets stuck, restate constraints, show errors, or simplify the task.</li>
