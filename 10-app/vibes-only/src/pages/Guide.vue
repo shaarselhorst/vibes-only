@@ -4,16 +4,36 @@ import TopBar from '@/components/TopBar.vue'
 
 <template>
   <main class="min-h-dvh flex flex-col">
-    <div class="border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 rounded-2xl">
+    <header class="border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 rounded-2xl">
       <div class="w-full max-w-3xl mx-auto px-6 py-4 text-center relative">
         <TopBar />
-        <h1 class="text-3xl font-extrabold tracking-tight text-zinc-900 dark:text-white">Build With AI</h1>
-        <p class="mt-2 text-zinc-600 dark:text-zinc-300">A short, opinionated path from idea → v1, plus tips for smooth iteration.</p>
+        <h1 class="text-3xl font-extrabold tracking-tight text-zinc-900 dark:text-white">Guide</h1>
+        <p class="mt-2 text-zinc-600 dark:text-zinc-300">A short, opinionated path from idea → v1.</p>
       </div>
-    </div>
+    </header>
 
-    <section class="w-full max-w-3xl mx-auto px-6 mt-8 text-left">
-      <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">1) Choose your path</h2>
+    <section class="w-full max-w-3xl mx-auto px-6 mt-6 text-left" aria-label="Contents">
+      <h2 class="sr-only">📑 Contents</h2>
+      <nav>
+        <ul class="grid gap-2 sm:grid-cols-2">
+          <li>
+            <a href="#choose-your-path" class="text-blue-700 dark:text-blue-400 hover:underline">1) Choose your path</a>
+          </li>
+          <li>
+            <a href="#plan-the-build" class="text-blue-700 dark:text-blue-400 hover:underline">2) Plan the build</a>
+          </li>
+          <li>
+            <a href="#define-the-mvp" class="text-blue-700 dark:text-blue-400 hover:underline">3) Define the MVP</a>
+          </li>
+          <li>
+            <a href="#ship-and-iterate" class="text-blue-700 dark:text-blue-400 hover:underline">4) Ship and iterate</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <section id="choose-your-path" class="w-full max-w-3xl mx-auto px-6 mt-8 text-left">
+      <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">🧭 1) Choose your path</h2>
       <ol class="mt-4 space-y-3 list-decimal pl-5 text-left">
         <li class="text-zinc-800 dark:text-zinc-200"><strong>Pick an idea</strong> you care about.</li>
         <li class="text-zinc-800 dark:text-zinc-200"><strong>Create <code>DESIGN.md</code></strong> with problem, outcome, users, constraints, and rough feature notes.</li>
@@ -23,8 +43,8 @@ import TopBar from '@/components/TopBar.vue'
       </ol>
     </section>
 
-    <section class="w-full max-w-3xl mx-auto px-6 mt-10 text-left">
-      <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">2) Plan the build</h2>
+    <section id="plan-the-build" class="w-full max-w-3xl mx-auto px-6 mt-10 text-left">
+      <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">🛠️ 2) Plan the build</h2>
       <p class="mt-3 text-zinc-700 dark:text-zinc-300">Set your stance:</p>
       <ul class="mt-2 list-disc pl-5 space-y-2">
         <li class="text-zinc-800 dark:text-zinc-200"><strong>Purpose and horizon</strong>: ship today vs. build a foundation.</li>
@@ -50,8 +70,8 @@ import TopBar from '@/components/TopBar.vue'
       </ol>
     </section>
 
-    <section class="w-full max-w-3xl mx-auto px-6 mt-10 text-left">
-      <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">3) Define the MVP</h2>
+    <section id="define-the-mvp" class="w-full max-w-3xl mx-auto px-6 mt-10 text-left">
+      <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">🎯 3) Define the MVP</h2>
       <ol class="mt-4 space-y-3 list-decimal pl-5 text-left">
         <li class="text-zinc-800 dark:text-zinc-200"><strong>Create <code>TODO.md</code></strong> from your <code>DESIGN.md</code>: app type, prioritized features, acceptance criteria, and constraints.</li>
         <li class="text-zinc-800 dark:text-zinc-200">If bootstrapped, let AI analyze the codebase and tailor suggestions to your stack.</li>
@@ -59,8 +79,8 @@ import TopBar from '@/components/TopBar.vue'
       </ol>
     </section>
 
-    <section class="w-full max-w-3xl mx-auto px-6 mt-10 text-left">
-      <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">4) Ship and iterate</h2>
+    <section id="ship-and-iterate" class="w-full max-w-3xl mx-auto px-6 mt-10 text-left">
+      <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">🚀 4) Ship and iterate</h2>
       <ul class="mt-3 list-disc pl-5 space-y-2">
         <li class="text-zinc-800 dark:text-zinc-200">Implement in tiny steps; run the app after each edit.</li>
         <li class="text-zinc-800 dark:text-zinc-200">Prefer simple, boring solutions over clever abstractions.</li>
