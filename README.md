@@ -1,118 +1,48 @@
-# Vibes Only 🚀
+# Vibes Only
 
-> **AI Project Idea Spinner** - Get inspired to build something amazing in just one hour!
+AI project idea spinner: single-screen, one-hour build ideas for practicing with AI coding tools.
 
-## What is Vibes Only?
+## Features
+- Random idea generator with particle effects
+- Shows up to three recent ideas; avoids duplicates
+- Dark/light theme toggle (persists to `localStorage`)
+- Two routes: `Home` (ideas) and `Guide` (build flow tips)
+- No backend — ideas are static JSON; deploy anywhere
 
-Vibes Only is a delightful, single-page web app that randomly generates **simple, actionable project ideas** designed specifically for AI-assisted coding sessions. It's built for developers who want to practice building with AI tools like Cursor, GitHub Copilot, or Claude, but don't know what to build.
+## Tech Stack
+- Vue 3 + TypeScript, Vue Router
+- Vite 7
+- Tailwind CSS 4 via `@tailwindcss/vite`
 
-The app follows a simple philosophy: **every idea should be achievable by an AI coding agent within one hour**. No complex multi-screen applications, no overwhelming feature lists - just clean, focused projects that you can start building today.
-
-## The Concept 🎯
-
-### Why "One Hour"?
-We believe that the best way to learn AI-assisted development is through rapid iteration and completion. One-hour projects are:
-- **Focused**: Single purpose, clear scope
-- **Achievable**: Complete, functional apps in one coding session
-- **Confidence-building**: You finish what you start
-- **Perfect for practice**: Quick wins that build momentum
-
-### What Makes a Good Idea?
-Each project idea is carefully crafted to be:
-- **AI-understandable**: Simple enough for AI to generate working code
-- **Technology-agnostic**: Focus on functionality, not implementation details
-- **Immediately actionable**: You can start building right now
-- **Interest-driven**: Based on real hobbies, industries, and daily life
-- **Single-page focused**: Web apps that don't require complex navigation
-
-## How It Works ✨
-
-1. **Click "Start vibing!"** - The main button triggers a delightful particle effect and generates a new random idea
-2. **Get inspired** - Each idea comes with a clear title, summary, and detailed objective
-3. **Start building** - Use your favorite AI coding tool to bring the idea to life
-4. **Repeat** - Click again for a fresh idea whenever you're ready for your next project
-
-### Example Ideas
-- **Coin Collection Tracker**: Organize and track your coin collection with inventory management
-- **Plant Watering Tracker**: Never forget to water your plants again
-- **Recipe Cost Calculator**: Calculate the cost of ingredients for your favorite recipes
-- **Parking Spot Memory**: Remember where you parked your car
-- **Reading Progress Tracker**: Track your reading goals and progress
-- **Expense Splitter**: Split bills and expenses with friends
-
-## Tech Stack 🛠️
-
-- **Frontend**: Vue 3 + TypeScript
-- **Styling**: Tailwind CSS 4.1
-- **Build Tool**: Vite
-- **Data**: Static JSON files (no backend required)
-- **Deployment**: Ready for any static hosting service
-
-## Getting Started 🚀
-
-### Prerequisites
-- Node.js (version 18 or higher)
-- npm or yarn
-
-### Installation
+## Quick Start
 ```bash
-# Navigate to the app directory
 cd 10-app/vibes-only
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
 ```
+App runs at `http://localhost:5173`.
 
-The app will be available at `http://localhost:5173`
-
-### Building for Production
+Build/preview:
 ```bash
 npm run build
 npm run preview
 ```
 
-## Project Structure 📁
+## Repo Layout
+- `10-app/vibes-only/`: the Vue app
+- `93-prompts/`: prompts used to create the app and content
+- `95-designs/`: initial concept notes and guide drafts
 
-```
-vibes-only/
-├── src/
-│   ├── components/          # Vue components
-│   │   ├── VibeButton.vue  # Main action button
-│   │   ├── IdeaCard.vue    # Idea display component
-│   │   └── ParticleEffects.vue # Fun visual effects
-│   ├── data/
-│   │   ├── ideas/          # JSON files for each project idea
-│   │   └── loadIdeas.ts    # Logic for loading and selecting ideas
-│   ├── types/
-│   │   └── idea.ts         # TypeScript interfaces
-│   └── App.vue             # Main application component
-├── public/                  # Static assets
-└── package.json            # Dependencies and scripts
-```
-
-## Adding Your Own Ideas 💡
-
-Want to contribute ideas? Each idea is stored as a separate JSON file in `src/data/ideas/`:
-
+## Add Ideas
+Put JSON files in `10-app/vibes-only/src/data/ideas/` with this shape:
 ```json
 {
-  "id": "your-idea-name",
+  "id": "your-idea-id",
   "title": "Your Project Title",
-  "summary": "One sentence describing what the app does",
-  "objective": "Detailed explanation of the app's purpose and features",
-  "tags": ["relevant", "categories", "for", "filtering"]
+  "summary": "One sentence on what it does",
+  "objective": "Short paragraph on the goal and scope",
+  "tags": ["tag1", "tag2"]
 }
 ```
 
-### Idea Guidelines
-- **Keep it simple**: 1-3 main features maximum
-- **Be specific**: Clear, actionable functionality
-- **Think real-world**: Solve actual problems people have
-- **One-hour scope**: AI must be able to generate working code within 60 minutes
-
-**Ready to start vibing?** 🎉 Click that button and let's build something amazing together!
-
-*Built with ❤️ for the AI-assisted development community*
+Guidelines: keep scope small (1–3 features), concrete, and achievable in ~1 hour.

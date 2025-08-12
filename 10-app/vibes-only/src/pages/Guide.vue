@@ -5,14 +5,14 @@ import TopBar from '@/components/TopBar.vue'
 <template>
   <main class="min-h-dvh flex flex-col">
     <header class="border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 rounded-2xl">
-      <div class="w-full max-w-3xl mx-auto px-6 py-4 text-center relative">
+      <div class="w-full max-w-3xl mx-auto px-5 py-3 text-center relative">
         <TopBar />
-        <h1 class="text-3xl font-extrabold tracking-tight text-zinc-900 dark:text-white">Guide</h1>
-        <p class="mt-2 text-zinc-600 dark:text-zinc-300">A short, opinionated path from idea → v1.</p>
+        <h1 class="text-2xl font-extrabold tracking-tight text-zinc-900 dark:text-white">Guide</h1>
+        <p class="mt-1.5 text-zinc-600 dark:text-zinc-300">A short, opinionated path from idea → v1.</p>
       </div>
     </header>
 
-    <section class="w-full max-w-3xl mx-auto px-6 mt-6 text-left" aria-label="Contents">
+    <section class="w-full max-w-3xl mx-auto px-5 mt-5 text-left" aria-label="Contents">
       <h2 class="sr-only">📑 Contents</h2>
       <nav>
         <ul class="grid gap-2 sm:grid-cols-2">
@@ -32,7 +32,7 @@ import TopBar from '@/components/TopBar.vue'
       </nav>
     </section>
 
-    <section id="choose-your-path" class="w-full max-w-3xl mx-auto px-6 mt-8 text-left">
+    <section id="choose-your-path" class="w-full max-w-3xl mx-auto px-5 mt-7 text-left">
       <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">🧭 1) Choose your path</h2>
       <ol class="mt-4 space-y-3 list-decimal pl-5 text-left">
         <li class="text-zinc-800 dark:text-zinc-200"><strong>Pick an idea</strong> you care about.</li>
@@ -43,7 +43,7 @@ import TopBar from '@/components/TopBar.vue'
       </ol>
     </section>
 
-    <section id="plan-the-build" class="w-full max-w-3xl mx-auto px-6 mt-10 text-left">
+    <section id="plan-the-build" class="w-full max-w-3xl mx-auto px-5 mt-9 text-left">
       <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">🛠️ 2) Plan the build</h2>
       <p class="mt-3 text-zinc-700 dark:text-zinc-300">Set your stance:</p>
       <ul class="mt-2 list-disc pl-5 space-y-2">
@@ -70,7 +70,7 @@ import TopBar from '@/components/TopBar.vue'
       </ol>
     </section>
 
-    <section id="define-the-mvp" class="w-full max-w-3xl mx-auto px-6 mt-10 text-left">
+    <section id="define-the-mvp" class="w-full max-w-3xl mx-auto px-5 mt-9 text-left">
       <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">🎯 3) Define the MVP</h2>
       <ol class="mt-4 space-y-3 list-decimal pl-5 text-left">
         <li class="text-zinc-800 dark:text-zinc-200"><strong>Create <code>TODO.md</code></strong> from your <code>DESIGN.md</code>: app type, prioritized features, acceptance criteria, and constraints.</li>
@@ -79,7 +79,7 @@ import TopBar from '@/components/TopBar.vue'
       </ol>
     </section>
 
-    <section id="ship-and-iterate" class="w-full max-w-3xl mx-auto px-6 mt-10 text-left">
+    <section id="ship-and-iterate" class="w-full max-w-3xl mx-auto px-5 mt-9 text-left">
       <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">🚀 4) Ship and iterate</h2>
       <ul class="mt-3 list-disc pl-5 space-y-2">
         <li class="text-zinc-800 dark:text-zinc-200">Implement in tiny steps; run the app after each edit.</li>

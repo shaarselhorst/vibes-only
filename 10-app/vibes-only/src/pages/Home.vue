@@ -50,6 +50,7 @@ function onStartVibing() {
         <TopBar />
         
         <h1 class="text-4xl font-extrabold tracking-tight text-zinc-900 dark:text-white">Vibes Only</h1>
+        <p class="mt-2 text-zinc-700 dark:text-zinc-300">Simple, low-stakes project ideas to spark momentum.</p>
         <p v-if="currentIdeas.length === 0" class="mt-2 text-zinc-600 dark:text-zinc-300">Click the button to get project ideas.</p>
 
         <div class="mt-4">
