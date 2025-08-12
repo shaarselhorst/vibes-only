@@ -36,7 +36,7 @@ import TopBar from '@/components/TopBar.vue'
       <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">🧭 1) Choose your path</h2>
       <ol class="mt-4 space-y-3 list-decimal pl-5 text-left">
         <li class="text-zinc-800 dark:text-zinc-200"><strong>Pick an idea</strong> you care about.</li>
-        <li class="text-zinc-800 dark:text-zinc-200"><strong>Create <code>DESIGN.md</code></strong> with problem, outcome, users, constraints, and rough feature notes.</li>
+        <li class="text-zinc-800 dark:text-zinc-200"><strong>Create <code>DESIGN.md</code></strong> with rough description and feature notes.</li>
         <li class="text-zinc-800 dark:text-zinc-200"><strong>Dump your thoughts</strong>: requirements, desired outcomes, key features, and display/UX ideas.</li>
         <li class="text-zinc-800 dark:text-zinc-200">Write freely to capture context—then <strong>ask AI to structure and clarify</strong>.</li>
         <li class="text-zinc-800 dark:text-zinc-200">Add one short <strong>user scenario</strong> (who, how, expected result).</li>
@@ -55,16 +55,16 @@ import TopBar from '@/components/TopBar.vue'
       <ol class="mt-3 list-decimal pl-5 space-y-2">
         <li class="text-zinc-800 dark:text-zinc-200"><strong>Bootstrap</strong>:
           <ul class="mt-2 list-disc pl-5 space-y-2">
-            <li>Ask AI to initialize with your preferred stack,</li>
-            <li>or let AI pick the stack,</li>
-            <li>or create a minimal “Hello World” (e.g., Vue 3 + Vite + Tailwind).</li>
-          </ul>
-        </li>
-        <li class="text-zinc-800 dark:text-zinc-200"><strong>Why it helps</strong>:
-          <ul class="mt-2 list-disc pl-5 space-y-2">
-            <li>The AI can read your file structure and scripts to propose changes in the right places.</li>
-            <li>Locked-in, reproducible dependency versions.</li>
-            <li>You can run a known-good app before iterating with AI.</li>
+            <li>Ask AI to initialize with your preferred stack.</li>
+            <li>Let AI pick the stack.</li>
+            <li>
+              Create a minimal “Hello World” (e.g., Vue 3 + Vite + Tailwind):
+              <ul class="mt-2 list-disc pl-5 space-y-2">
+                <li>The AI can read your file structure and scripts to propose changes in the right places.</li>
+                <li>Dependency versions are pinned.</li>
+                <li>You can run a known-good app before iterating with AI.</li>
+              </ul>
+            </li>
           </ul>
         </li>
       </ol>
