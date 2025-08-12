@@ -1,0 +1,9 @@
+{
+  "id": "tcg-digital-binder",
+  "title": "TCG Digital Binder",
+  "summary": "Snap card photos and organize sets into a searchable binder.",
+  "objective": "Users create binders for games/sets, add entries with name, set, rarity, condition, and photo URL. Simple filters by set or rarity, a count per card, and an optional have/want toggle to track collection gaps.",
+  "tags": ["collecting", "gaming", "organization"]
+}
+
+

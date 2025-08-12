@@ -1,0 +1,9 @@
+{
+  "id": "daily-language-bites",
+  "title": "Daily Language Bites",
+  "summary": "Daily mini-lessons with phrases and a tiny practice.",
+  "objective": "Users pick a language and receive a daily set of five phrases with translations and example sentences. Quick quiz to mark known/unknown; unknowns recur the next day. Includes a lightweight streak counter.",
+  "tags": ["learning", "language", "education"]
+}
+
+

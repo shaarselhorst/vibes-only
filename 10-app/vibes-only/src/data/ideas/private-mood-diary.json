@@ -1,0 +1,9 @@
+{
+  "id": "private-mood-diary",
+  "title": "Private Mood Diary",
+  "summary": "Password-locked diary with daily rating and pleasant-day recall.",
+  "objective": "Users set a local-only passphrase, then log a daily entry with mood rating and notes. Gentle reminders to write, plus occasional resurfacing of highly-rated past days as a positive nudge.",
+  "tags": ["wellness", "journal", "privacy"]
+}
+
+

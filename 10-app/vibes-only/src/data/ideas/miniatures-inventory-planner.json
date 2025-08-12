@@ -1,0 +1,9 @@
+{
+  "id": "miniatures-inventory-planner",
+  "title": "Miniatures Inventory Planner",
+  "summary": "Track units, quantities, paint schemes, and army groups.",
+  "objective": "Users log units with game/system, kit, quantity, build status (sprue/assembled/painted), and planned color scheme notes. Group units into rosters and see total model counts.",
+  "tags": ["hobby", "wargaming", "organization"]
+}
+
+

@@ -1,0 +1,9 @@
+{
+  "id": "call-mom-reminder",
+  "title": "Call Mom Reminder",
+  "summary": "Gentle recurring reminder to call someone you love.",
+  "objective": "Users set a contact name and interval (e.g., every two weeks). The app tracks last call date and nudges when due with a friendly prompt; quick mark when completed.",
+  "tags": ["relationships", "reminders", "wellbeing"]
+}
+
+

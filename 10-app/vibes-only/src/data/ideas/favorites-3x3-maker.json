@@ -1,0 +1,9 @@
+{
+  "id": "favorites-3x3-maker",
+  "title": "Favorites 3×3 Maker",
+  "summary": "Build and share a 3×3 grid of your favorites on any topic.",
+  "objective": "Users set a topic, fill nine image slots with titles/notes, and generate a simple grid view ready for screenshot or sharing. Includes basic drag reordering.",
+  "tags": ["favorites", "gallery", "sharing"]
+}
+
+

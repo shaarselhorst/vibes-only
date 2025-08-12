@@ -1,0 +1,9 @@
+{
+  "id": "timesheet-nudge-list",
+  "title": "Timesheet Nudge List",
+  "summary": "Keep a list of coworkers to remind about timesheets each week.",
+  "objective": "Users add teammates with name and contact note; a weekly reminder checklist auto-resets on Fridays. One-tap mark contacted and copy/export the list to chat.",
+  "tags": ["work", "reminders", "productivity"]
+}
+
+
