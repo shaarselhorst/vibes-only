@@ -103,7 +103,7 @@ onBeforeUnmount(() => {
 
         <div
           v-if="isGithubMenuOpen"
-          class="absolute right-0 mt-2 w-56 rounded-lg border border-zinc-200 bg-white shadow-lg ring-1 ring-black/5 dark:border-zinc-700 dark:bg-zinc-800"
+            class="absolute right-0 mt-2 w-auto min-w-[10rem] rounded-lg border border-zinc-200 bg-white shadow-lg ring-1 ring-black/5 dark:border-zinc-700 dark:bg-zinc-800"
           role="menu"
           aria-label="GitHub repositories"
         >
@@ -112,22 +112,20 @@ onBeforeUnmount(() => {
             target="_blank"
             rel="noopener noreferrer"
             role="menuitem"
-            class="flex items-center gap-2 px-3 py-2 text-zinc-700 hover:bg-zinc-100 rounded-t-lg dark:text-zinc-200 dark:hover:bg-zinc-700/60"
+            class="flex items-center px-3 py-2 text-zinc-700 hover:bg-zinc-100 rounded-t-lg dark:text-zinc-200 dark:hover:bg-zinc-700/60"
             @click="closeGithubMenu"
           >
             <span>Frontend repo</span>
-            <span class="ml-auto text-xs text-zinc-500 dark:text-zinc-400">current</span>
           </a>
           <a
             :href="backendRepoUrl"
             target="_blank"
             rel="noopener noreferrer"
             role="menuitem"
-            class="flex items-center gap-2 px-3 py-2 text-zinc-700 hover:bg-zinc-100 rounded-b-lg dark:text-zinc-200 dark:hover:bg-zinc-700/60"
+            class="flex items-center px-3 py-2 text-zinc-700 hover:bg-zinc-100 rounded-b-lg dark:text-zinc-200 dark:hover:bg-zinc-700/60"
             @click="closeGithubMenu"
           >
             <span>Backend repo</span>
-            <span class="ml-auto text-xs text-emerald-600 dark:text-emerald-400">new</span>
           </a>
         </div>
       </div>
