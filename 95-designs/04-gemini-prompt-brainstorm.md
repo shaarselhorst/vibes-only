@@ -79,3 +79,52 @@ Example (JSON mode, minimal schema):
 - Your turn:
   - parts: [{ functionResponse: { name, response } }]
 - Then the model continues with the tool’s result in context.
+
+### Idea generation request (JSON example)
+Use this request to have Gemini generate a diverse list of one-hour app ideas that match the `Idea` structure (`id`, `title`, `summary`, `objective`, `tags`). The response is constrained to valid JSON and shaped by the schema.
+
+Endpoint: `POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent`
+
+```json
+{
+  "systemInstruction": {
+    "parts": [
+      {
+        "text": "You are an idea generator. Produce diversified, one-hour-build app ideas. Follow the rules: simple scope (1–3 features), actionable, technology-agnostic, varied categories, avoid duplicates, and clear value. Return only valid JSON. No prose."
+      }
+    ]
+  },
+  "generationConfig": {
+    "responseMimeType": "application/json",
+    "responseSchema": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "summary": { "type": "string" },
+          "objective": { "type": "string" },
+          "tags": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["id", "title", "summary", "objective", "tags"]
+      }
+    },
+    "temperature": 0.6,
+    "topP": 0.9,
+    "maxOutputTokens": 4096
+  },
+  "contents": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Generate 10 diverse one-hour app ideas. Requirements: (1) simple, immediately actionable; (2) no tech stack or implementation details; (3) vary across domains (fitness, creative, business, daily life, education, etc.); (4) avoid repeating the same core pattern (e.g., trackers) more than 2–3 times; (5) each idea must include: id (kebab-case), title, summary (1 sentence), objective (2–3 sentences), tags (3–5)."
+        }
+      ]
+    }
+  ]
+}
+```
+
+Tip: For a single idea, change the `responseSchema` to an `object` (instead of an array) and adjust the prompt (e.g., “Generate 1 idea…”). You can also pass a variable for the desired count and category focus.
