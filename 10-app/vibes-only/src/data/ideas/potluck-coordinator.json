@@ -1,0 +1,9 @@
+{
+  "id": "potluck-coordinator",
+  "title": "Potluck Coordinator",
+  "summary": "Coordinate a potluck by collecting RSVPs and claimed dishes to prevent duplicates.",
+  "objective": "Users add their name and claim a dish for a shared meal; the app maintains an attendee and dish list, prevents duplicate dish names, groups dishes by course (appetizer, main, dessert, drink), and highlights dietary tags such as vegetarian or gluten-free.",
+  "tags": ["events", "food", "planning"]
+}
+
+

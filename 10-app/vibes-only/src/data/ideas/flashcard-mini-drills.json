@@ -1,0 +1,9 @@
+{
+  "id": "flashcard-mini-drills",
+  "title": "Flashcard Mini-Drills",
+  "summary": "Randomize 10-card sessions with quick spaced repeats for focused practice.",
+  "objective": "Users import or enter flashcards (front/back). The app shuffles and serves 10-card drills, marking correct/incorrect. Missed cards are re-queued within the session (simple spaced repeat), and a quick summary shows accuracy and suggested next set.",
+  "tags": ["learning", "study", "education"]
+}
+
+

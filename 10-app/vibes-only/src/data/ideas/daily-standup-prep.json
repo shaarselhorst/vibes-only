@@ -1,0 +1,9 @@
+{
+  "id": "daily-standup-prep",
+  "title": "Daily Standup Prep",
+  "summary": "Lightweight prep with yesterday/today/blockers template and quick export.",
+  "objective": "Users fill a simple template for Yesterday, Today, and Blockers. The app keeps the latest few entries, allows quick re-use of yesterday's items, and provides one-click copy/export for posting in chat or a ticket.",
+  "tags": ["productivity", "work", "notes"]
+}
+
+
