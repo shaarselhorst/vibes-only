@@ -17,10 +17,9 @@
 2. **Create `TODO.md`** in your project and paste the idea at the top.
 3. **Dump your thoughts**: write requirements, desired outcomes, key features, display/UX ideas, and what form the app should take.
 4. **Textualize the app**: freely expand on the idea—unfiltered, rough notes are fine.
-5. **Ask AI to refine**: request a concrete design; ask it to structure and clean up your text.
-6. **Provide a user example**: describe who will use it, how they’ll use it, what it provides, and the expected result.
-7. **Iterate**: call out what you (didn't) like, add/adjust requirements, and clarify constraints.
-8. **Stop here for v1**: start with just these steps on the page.
+5. **Provide a user example**: describe who will use it, how they’ll use it, what it provides, and the expected result.
+6. **Iterate**: call out what you (didn't) like, add/adjust requirements, and clarify constraints.
+7. **Ask AI to refine**: request a concrete design; ask it to structure and clean up your text.
 
 ### Acceptance criteria
 
