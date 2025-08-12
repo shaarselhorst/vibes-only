@@ -30,7 +30,7 @@ function toggleTheme() {
       title="Go to Home"
     >Home</RouterLink>
     <RouterLink
-      to="/example"
+      to="/guide"
       class="px-3 py-1.5 border border-zinc-300 text-zinc-700 dark:text-zinc-200 dark:border-zinc-600 rounded-lg bg-transparent hover:bg-zinc-100/60 dark:hover:bg-zinc-800/60 transition-colors duration-200"
       title="Open the Get Started Guide"
     >Guide</RouterLink>
