@@ -4,6 +4,38 @@ import type { Idea } from '@/types/idea'
 const modules = import.meta.glob('./ideas/*.json', { eager: true }) as Record<string, { default: Idea }>
 export const ideas: Idea[] = Object.values(modules).map((m) => m.default)
 
+// Fisher–Yates shuffle for a non-repeating randomized order
+function shuffleArray<T>(input: T[]): T[] {
+  const arr = input.slice()
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    const temp = arr[i]
+    arr[i] = arr[j]
+    arr[j] = temp
+  }
+  return arr
+}
+
+// Preloaded queue for ideas to avoid accidental repeats within a cycle
+let preloadedQueue: Idea[] = []
+let isQueueInitialized = false
+
+export function preloadIdeasQueue(): void {
+  preloadedQueue = shuffleArray(ideas)
+  isQueueInitialized = true
+}
+
+export function dequeueNextIdea(): Idea | null {
+  if (!isQueueInitialized) {
+    preloadIdeasQueue()
+  }
+  if (preloadedQueue.length === 0) {
+    // Start a fresh cycle with a new randomized order
+    preloadedQueue = shuffleArray(ideas)
+  }
+  return preloadedQueue.shift() ?? null
+}
+
 export function chooseNextIdea(currentId?: string): Idea | null {
   if (ideas.length === 0) return null
   if (ideas.length === 1) return ideas[0]

@@ -4,21 +4,18 @@ import VibeButton from '@/components/VibeButton.vue'
 import IdeaCard from '@/components/IdeaCard.vue'
 import ParticleEffects from '@/components/ParticleEffects.vue'
 import TopBar from '@/components/TopBar.vue'
-import { chooseNextIdeaExcluding } from '@/data/loadIdeas'
+import { dequeueNextIdea } from '@/data/loadIdeas'
 import type { Idea } from '@/types/idea'
 
 const currentIdeas = ref<Idea[]>([])
 const particleEffectsRef = ref<InstanceType<typeof ParticleEffects>>()
 
 onMounted(() => {
-  for (let i = 0; i < 3; i++) {
-    addNextIdea()
-  }
+  for (let i = 0; i < 3; i++) addNextIdea()
 })
 
 function addNextIdea() {
-  const exclude = currentIdeas.value.map((i: Idea) => i.id)
-  const next = chooseNextIdeaExcluding(exclude)
+  const next = dequeueNextIdea()
   if (!next) return
   currentIdeas.value = [next, ...currentIdeas.value].slice(0, 3)
 }
