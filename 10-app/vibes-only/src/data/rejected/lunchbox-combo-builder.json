@@ -1,0 +1,7 @@
+{
+  "id": "lunchbox-combo-builder",
+  "title": "Lunchbox Combo Builder",
+  "summary": "Pick one item from each category to form balanced lunches.",
+  "objective": "Define categories like grain, protein, veg, and fruit, add items, and let the app propose randomized combos and a simple weekly plan.",
+  "tags": ["food", "planning", "nutrition", "randomizer"]
+}

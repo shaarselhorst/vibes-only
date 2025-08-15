@@ -1,0 +1,7 @@
+{
+  "id": "carry-on-fit-checker",
+  "title": "Carry-On Fit Checker",
+  "summary": "Enter bag capacity and item sizes to check fit and total weight.",
+  "objective": "List your items with dimensions/weights; the app estimates volume fit vs. bag capacity and flags overweight combos with a simple checklist.",
+  "tags": ["travel", "packing", "estimator"]
+}

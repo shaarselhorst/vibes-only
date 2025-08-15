@@ -1,0 +1,7 @@
+{
+  "id": "board-game-turn-score-buddy",
+  "title": "Board Game Turn & Score Buddy",
+  "summary": "Phase timers and a quick score pad for tabletop sessions.",
+  "objective": "Users define phases or select a preset, track player scores and turn order, and run per-phase timers with a simple log for rounds.",
+  "tags": ["games", "tabletop", "timers", "utility"]
+}

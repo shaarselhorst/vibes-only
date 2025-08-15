@@ -1,0 +1,7 @@
+{
+  "id": "outline-template-maker",
+  "title": "Outline Template Maker",
+  "summary": "Build reusable outlines (essay/report/agenda) with editable section prompts.",
+  "objective": "Add sections with titles and guidance text; save templates and duplicate them for new documents with checkboxes to track completion.",
+  "tags": ["writing", "templates", "productivity"]
+}

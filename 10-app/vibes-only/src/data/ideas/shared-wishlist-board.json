@@ -1,0 +1,7 @@
+{
+  "id": "shared-wishlist-board",
+  "title": "Shared Wishlist Board",
+  "summary": "Make a wishlist friends can claim to avoid duplicate gifts.",
+  "objective": "Create a wishlist with items and notes; share a link so others can privately claim an item, leaving the owner unaware of who claimed it.",
+  "tags": ["gifts", "social", "planning"]
+}

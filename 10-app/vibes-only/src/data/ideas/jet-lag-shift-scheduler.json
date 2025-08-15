@@ -1,0 +1,7 @@
+{
+  "id": "jet-lag-shift-scheduler",
+  "title": "Jet Lag Shift Scheduler",
+  "summary": "Build a simple pre-trip sleep shift plan from origin and destination time zones.",
+  "objective": "Enter travel dates, time zones, and preferred wake time; the app suggests gradual bedtime and wake shifts in the days before departure with a day-by-day schedule.",
+  "tags": ["travel", "health", "planning"]
+}

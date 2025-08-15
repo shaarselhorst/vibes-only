@@ -1,0 +1,7 @@
+{
+  "id": "unit-price-comparator",
+  "title": "Unit Price Comparator",
+  "summary": "Compare price per unit across different package sizes at a glance.",
+  "objective": "Enter package sizes, units, and prices; the app normalizes to price per unit and highlights the best value with simple toggles for units.",
+  "tags": ["shopping", "savings", "calculator"]
+}

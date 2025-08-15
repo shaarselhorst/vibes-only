@@ -1,0 +1,7 @@
+{
+  "id": "branch-name-helper",
+  "title": "Branch Name Helper",
+  "summary": "Suggest conventional branch names from a ticket ID and short description.",
+  "objective": "Enter a ticket ID and summary; the app outputs standardized branch names in common patterns with copy-to-clipboard.",
+  "tags": ["devtools", "naming", "productivity"]
+}

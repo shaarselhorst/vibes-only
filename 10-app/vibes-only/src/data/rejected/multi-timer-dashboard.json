@@ -1,0 +1,7 @@
+{
+  "id": "multi-timer-dashboard",
+  "title": "Multi-Timer Dashboard",
+  "summary": "Save and run multiple labeled timers simultaneously.",
+  "objective": "Create labeled timers with preset durations (e.g., pasta 8m, rice 15m); start/stop/reset individually and save common sets.",
+  "tags": ["timers", "kitchen", "productivity"]
+}

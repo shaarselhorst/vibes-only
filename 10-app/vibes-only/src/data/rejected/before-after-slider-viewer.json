@@ -1,0 +1,7 @@
+{
+  "id": "before-after-slider-viewer",
+  "title": "Before/After Slider Viewer",
+  "summary": "Compare two images with a draggable slider and captions.",
+  "objective": "Upload two images, add short captions, and view them with a draggable divider slider; allow quick swap of sides and save the setup locally.",
+  "tags": ["images", "ui", "compare", "gallery"]
+}
