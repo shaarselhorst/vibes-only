@@ -190,7 +190,7 @@ function setActiveTab(tab: string) {
           <h3 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100">Pick an idea and get vibing</h3>
         </div>
         <div class="ml-11 space-y-3">
-          <p class="text-zinc-700 dark:text-zinc-300">Alex clicks "Get vibing" and lands on the idea: <strong>gratitude jar</strong>.</p>
+          <p class="text-zinc-700 dark:text-zinc-300">Alex clicks "Get Vibing!" and lands on the idea: <strong>gratitude jar</strong>.</p>
           <p class="text-zinc-700 dark:text-zinc-300">The goal is simple: jot down gratitudes and revisit them later.</p>
           <div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-400 pl-4 py-2 rounded-r-md">
             <p class="text-sm text-blue-800 dark:text-blue-200"><strong>💡 Insight:</strong> Start with something that resonates with you personally.</p>
