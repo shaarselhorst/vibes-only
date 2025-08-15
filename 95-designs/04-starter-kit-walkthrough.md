@@ -19,7 +19,7 @@ This is the story of Alex, who wants a tiny app that works today. They grab an i
 
 Short snippet of Alex’s raw notes:
 ```text
-copied idea gratitude jar: drop in one-line gratitude notes and get a random reminder later; users add short entries tagged by day; app shows today’s note count, a random past note on open, and a weekly streak indicator to encourage consistency; reality check: single user (me), no auth, no backend, only localStorage; mvp = add fast with enter, auto-random note on load, today count visible; ui = one input + big add button, tiny today counter, recent 5 list, area that shows a random past note on open.
+<copied idea gratitude jar> - drop in one-line gratitude notes and get a random reminder later; users add short entries tagged by day; app shows today’s note count, a random past note on open, and a weekly streak indicator to encourage consistency; reality check: single user (me), no auth, no backend, only localStorage; mvp = add fast with enter, auto-random note on load, today count visible; ui = one input + big add button, tiny today counter, recent 5 list, area that shows a random past note on open.
 ```
 
 ### 5) Ask AI to refine the idea
