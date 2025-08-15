@@ -1,0 +1,7 @@
+{
+  "id": "home-inventory-manager",
+  "title": "Home Inventory Manager",
+  "summary": "Catalog household items with photos, purchase dates, warranties, and replacement reminders.",
+  "objective": "Users can add household items with photos, descriptions, purchase dates, warranty information, and estimated replacement dates, organize by room or category, and receive reminders for warranty expirations.",
+  "tags": ["home", "inventory", "organization"]
+}

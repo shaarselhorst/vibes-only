@@ -1,0 +1,7 @@
+{
+  "id": "personal-finance-dashboard",
+  "title": "Personal Finance Dashboard",
+  "summary": "Track income, expenses, and savings goals with simple visual charts and progress indicators.",
+  "objective": "Users can log income and expenses with categories, set savings goals, view spending trends with simple charts, track progress toward goals, and get basic financial insights.",
+  "tags": ["finance", "tracking", "goals"]
+}

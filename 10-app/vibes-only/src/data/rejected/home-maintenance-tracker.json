@@ -1,0 +1,7 @@
+{
+  "id": "home-maintenance-tracker",
+  "title": "Home Maintenance Tracker",
+  "summary": "Log household tasks and maintenance with due dates, completion status, and service provider contacts.",
+  "objective": "Users can add maintenance tasks with descriptions, due dates, and priority levels, track completion status, store service provider contacts, and receive reminders for upcoming tasks.",
+  "tags": ["home", "maintenance", "tracking"]
+}

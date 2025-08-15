@@ -1,0 +1,7 @@
+{
+  "id": "personal-music-playlist-curator",
+  "title": "Personal Music Playlist Curator",
+  "summary": "Create themed playlists based on mood, activity, or occasion with song suggestions.",
+  "objective": "Users can create themed playlists by selecting mood, activity, or occasion, get song suggestions based on their preferences, organize tracks with custom ordering, and share playlists with friends.",
+  "tags": ["music", "creativity", "organization"]
+}

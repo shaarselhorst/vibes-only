@@ -1,0 +1,7 @@
+{
+  "id": "recipe-ingredient-calculator",
+  "title": "Recipe Ingredient Calculator",
+  "summary": "Calculate exact ingredient amounts needed based on available portions and desired servings.",
+  "objective": "Users can input available ingredients and quantities, specify desired servings, and get calculated amounts needed for each ingredient with unit conversions and shopping list generation.",
+  "tags": ["cooking", "calculator", "planning"]
+}

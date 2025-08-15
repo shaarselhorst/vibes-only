@@ -1,0 +1,7 @@
+{
+  "id": "local-event-discovery",
+  "title": "Local Event Discovery",
+  "summary": "Browse upcoming events in your area with filters for interests, distance, and free vs. paid events.",
+  "objective": "Users can discover local events by browsing categories, filtering by distance and price, save interesting events, and get directions to venues with simple event details and RSVP functionality.",
+  "tags": ["events", "local", "discovery"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "skill-development-tracker",
+  "title": "Skill Development Tracker",
+  "summary": "Monitor progress on learning new skills with practice logs and achievement milestones.",
+  "objective": "Users can add skills they want to learn, log practice sessions with duration and notes, track milestones and achievements, and view progress over time with simple charts and streak counters.",
+  "tags": ["learning", "productivity", "tracking"]
+}

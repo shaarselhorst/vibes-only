@@ -1,0 +1,7 @@
+{
+  "id": "weather-based-activity-planner",
+  "title": "Weather-Based Activity Planner",
+  "summary": "Get activity suggestions based on current weather conditions and your interests.",
+  "objective": "Users can input their interests and location, receive activity suggestions based on current weather, save favorite activities, and get planning tips for different weather conditions.",
+  "tags": ["weather", "planning", "activities"]
+}

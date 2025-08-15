@@ -1,0 +1,7 @@
+{
+  "id": "local-food-truck-finder",
+  "title": "Local Food Truck Finder",
+  "summary": "Discover food trucks near you with current locations, menus, and operating hours.",
+  "objective": "Users can browse food trucks in their area, see current locations on a simple map, view menus and prices, check operating hours, and get directions to their chosen truck.",
+  "tags": ["food", "local", "discovery"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "digital-receipt-organizer",
+  "title": "Digital Receipt Organizer",
+  "summary": "Store and categorize receipts with searchable tags and expense summaries.",
+  "objective": "Users can photograph or upload receipts, add categories and tags, search their receipt history, generate expense summaries by category and time period, and export data for tax purposes.",
+  "tags": ["finance", "organization", "receipts"]
+}

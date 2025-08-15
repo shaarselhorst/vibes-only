@@ -1,0 +1,7 @@
+{
+  "id": "local-business-directory",
+  "title": "Local Business Directory",
+  "summary": "Discover and review small businesses in your neighborhood with categories and contact information.",
+  "objective": "Users can browse local businesses by category, read and write reviews, view contact information and hours, save favorite businesses, and get directions to locations.",
+  "tags": ["business", "local", "reviews"]
+}

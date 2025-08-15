@@ -1,0 +1,7 @@
+{
+  "id": "personal-library-catalog",
+  "title": "Personal Library Catalog",
+  "summary": "Organize your book collection with reading status, ratings, and loan tracking to friends.",
+  "objective": "Users can catalog their books with titles, authors, reading status, ratings, and notes, track books loaned to friends, and organize their collection with custom categories and search functionality.",
+  "tags": ["books", "organization", "tracking"]
+}

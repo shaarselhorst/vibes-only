@@ -1,0 +1,7 @@
+{
+  "id": "creative-writing-prompt-generator",
+  "title": "Creative Writing Prompt Generator",
+  "summary": "Generate random writing prompts by genre, mood, and word count to spark creativity.",
+  "objective": "Users can select writing genre, mood, and target word count, generate random prompts, save favorite prompts, and track writing sessions with word count and time spent.",
+  "tags": ["writing", "creativity", "generator"]
+}

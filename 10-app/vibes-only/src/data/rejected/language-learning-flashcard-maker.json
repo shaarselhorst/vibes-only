@@ -1,0 +1,7 @@
+{
+  "id": "language-learning-flashcard-maker",
+  "title": "Language Learning Flashcard Maker",
+  "summary": "Create custom flashcards for vocabulary practice with spaced repetition reminders.",
+  "objective": "Users can create flashcards with words in two languages, practice with spaced repetition algorithms, track learning progress, and organize cards by difficulty and categories.",
+  "tags": ["language", "learning", "flashcards"]
+}
