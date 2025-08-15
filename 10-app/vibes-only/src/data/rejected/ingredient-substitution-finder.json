@@ -1,0 +1,7 @@
+{
+  "id": "ingredient-substitution-finder",
+  "title": "Ingredient Substitution Finder",
+  "summary": "Pick an ingredient and instantly see common kitchen substitutions with amounts.",
+  "objective": "Users search an ingredient to see typical substitutes with ratios and notes. They can add custom substitutions and copy the selected swap to clipboard.",
+  "tags": ["cooking", "food", "reference", "tools"]
+}

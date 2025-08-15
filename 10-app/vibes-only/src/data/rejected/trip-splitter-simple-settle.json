@@ -1,0 +1,7 @@
+{
+  "id": "trip-splitter-simple-settle",
+  "title": "Trip Splitter: Simple Settle",
+  "summary": "Add trip expenses and see who owes whom with a simple settle-up summary.",
+  "objective": "Users log expenses with payer and participants. The app calculates balances and shows the minimal settle-up transfers, plus a shareable summary.",
+  "tags": ["travel", "expenses", "planning", "friends"]
+}

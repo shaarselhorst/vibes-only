@@ -1,0 +1,7 @@
+{
+  "id": "micro-workout-randomizer",
+  "title": "Micro Workout Randomizer",
+  "summary": "Get a randomized 2-minute micro-workout based on your available space and energy level.",
+  "objective": "Users pick space (desk, floor, hallway) and energy (low, medium, high) to generate a quick set of 3–5 moves with short timers. They can mark completed and reshuffle for a new routine.",
+  "tags": ["fitness", "health", "quick", "randomizer"]
+}

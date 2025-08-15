@@ -1,0 +1,7 @@
+{
+  "id": "minimalist-packing-checklist",
+  "title": "Minimalist Packing Checklist",
+  "summary": "Choose an outdoor activity and duration to generate a minimalist packing checklist you can tick off.",
+  "objective": "Users select an activity and trip length; the app builds a basic checklist grouped by essentials. Items can be toggled and custom items added.",
+  "tags": ["travel", "outdoors", "checklist", "planning"]
+}

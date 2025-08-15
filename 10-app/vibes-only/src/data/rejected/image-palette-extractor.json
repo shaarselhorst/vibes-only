@@ -1,0 +1,7 @@
+{
+  "id": "image-palette-extractor",
+  "title": "Image Palette Extractor",
+  "summary": "Upload an image to instantly extract a 5-color palette with hex codes.",
+  "objective": "Users drop an image, see a palette with hex values, and copy colors to clipboard. They can lock a color and re-sample to refine the set.",
+  "tags": ["design", "colors", "creativity", "tools"]
+}

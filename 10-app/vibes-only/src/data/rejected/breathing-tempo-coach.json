@@ -1,0 +1,7 @@
+{
+  "id": "breathing-tempo-coach",
+  "title": "Breathing Tempo Coach",
+  "summary": "Follow on-screen breathing patterns with adjustable tempos for quick focus or calm sessions.",
+  "objective": "Users select a breathing pattern (box, 4-7-8, etc.) and tempo, then follow an animated guide with a session timer and simple log of completed sessions.",
+  "tags": ["wellbeing", "breathing", "focus", "calm"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "garden-bed-sketcher",
+  "title": "Garden Bed Sketcher",
+  "summary": "Arrange plants on a simple grid to sketch a garden bed layout.",
+  "objective": "Users pick bed dimensions and drag plant tokens into a grid with labels and spacing hints. They can save or export the layout as an image.",
+  "tags": ["gardening", "planning", "layout", "hobby"]
+}
