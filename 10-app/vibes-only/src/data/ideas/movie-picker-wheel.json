@@ -1,0 +1,7 @@
+{
+  "id": "movie-picker-wheel",
+  "title": "Movie Picker Wheel",
+  "summary": "Add your watchlist and spin a wheel to fairly pick tonight’s movie.",
+  "objective": "Users enter movie titles, spin an on-screen wheel to select one at random, and mark the winner as watched. Includes quick re-spin and remove options to keep the list fresh.",
+  "tags": ["movies", "entertainment", "randomizer"]
+}
