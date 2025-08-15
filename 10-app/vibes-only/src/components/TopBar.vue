@@ -59,25 +59,25 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="flex items-center justify-between gap-1.5 flex-wrap mb-2">
-    <nav class="flex items-center gap-1.5" aria-label="Primary">
+  <div class="flex items-center justify-between gap-1 flex-nowrap sm:gap-1.5 mb-2">
+    <nav class="flex items-center gap-1 sm:gap-1.5" aria-label="Primary">
       <RouterLink
         to="/"
-        class="px-2.5 py-1 border border-zinc-300 text-zinc-700 dark:text-zinc-200 dark:border-zinc-600 rounded-lg bg-transparent hover:bg-zinc-100/60 dark:hover:bg-zinc-800/60 transition-colors duration-200"
+        class="text-sm sm:text-base px-2 py-0.5 sm:px-2.5 sm:py-1 border border-zinc-300 text-zinc-700 dark:text-zinc-200 dark:border-zinc-600 rounded-lg bg-transparent hover:bg-zinc-100/60 dark:hover:bg-zinc-800/60 transition-colors duration-200"
         title="Go to Home"
       >Home</RouterLink>
       <RouterLink
         to="/guide"
-        class="px-2.5 py-1 border border-zinc-300 text-zinc-700 dark:text-zinc-200 dark:border-zinc-600 rounded-lg bg-transparent hover:bg-zinc-100/60 dark:hover:bg-zinc-800/60 transition-colors duration-200"
+        class="text-sm sm:text-base px-2 py-0.5 sm:px-2.5 sm:py-1 border border-zinc-300 text-zinc-700 dark:text-zinc-200 dark:border-zinc-600 rounded-lg bg-transparent hover:bg-zinc-100/60 dark:hover:bg-zinc-800/60 transition-colors duration-200"
         title="Open the Get Started Guide"
       >Guide</RouterLink>
       
     </nav>
-    <div class="flex items-center gap-2">
+    <div class="flex items-center gap-1 sm:gap-2">
       <button
         type="button"
         @click="toggleTheme"
-        class="p-1.5 rounded-lg border text-zinc-800 bg-white/80 border-zinc-300 hover:bg-zinc-100 transition-colors duration-200 dark:text-zinc-200 dark:bg-zinc-800/60 dark:border-zinc-400/30 dark:hover:bg-zinc-700/60"
+        class="p-1 sm:p-1.5 rounded-lg border text-zinc-800 bg-white/80 border-zinc-300 hover:bg-zinc-100 transition-colors duration-200 dark:text-zinc-200 dark:bg-zinc-800/60 dark:border-zinc-400/30 dark:hover:bg-zinc-700/60"
         :title="theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'"
         :aria-label="theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'"
       >
@@ -92,7 +92,7 @@ onBeforeUnmount(() => {
         <button
           type="button"
           @click="toggleGithubMenu"
-          class="p-1.5 text-zinc-500 hover:text-zinc-900 transition-colors duration-200 dark:text-zinc-400 dark:hover:text-white"
+          class="p-1 sm:p-1.5 text-zinc-500 hover:text-zinc-900 transition-colors duration-200 dark:text-zinc-400 dark:hover:text-white"
           title="Open GitHub links"
           aria-haspopup="menu"
           :aria-expanded="isGithubMenuOpen ? 'true' : 'false'"
