@@ -1,0 +1,7 @@
+{
+  "id": "art-commission-brief-starter",
+  "title": "Art Commission Brief Starter",
+  "summary": "Fill in subject, style, budget, and references to generate a concise brief to share.",
+  "objective": "Users enter subject, style, size, budget, and upload refs; the app outputs a clean brief to copy or export as a PDF.",
+  "tags": ["art", "brief", "templates"]
+}

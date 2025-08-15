@@ -1,0 +1,7 @@
+{
+  "id": "repair-or-replace-appliance-helper",
+  "title": "Repair-or-Replace Appliance Helper",
+  "summary": "Input age, issue, and cost to get a simple repair-or-replace recommendation with reasoning.",
+  "objective": "Enter appliance type, age, symptoms, and quoted repair cost; the app returns a recommendation using common 50% rules and expected lifespans, plus a simple rationale.",
+  "tags": ["home", "decision", "appliances"]
+}

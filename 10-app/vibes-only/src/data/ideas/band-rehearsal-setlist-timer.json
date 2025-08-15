@@ -1,0 +1,7 @@
+{
+  "id": "band-rehearsal-setlist-timer",
+  "title": "Band Rehearsal Setlist Timer",
+  "summary": "Build a rehearsal setlist, add song durations, and get total time with quick reorder.",
+  "objective": "Add songs with duration, drag to reorder, and see an auto-updated total runtime. Start a rehearsal timer to step through songs with countdowns and quick overrun notes. Export a simple run sheet.",
+  "tags": ["music", "planning", "timing"]
+}

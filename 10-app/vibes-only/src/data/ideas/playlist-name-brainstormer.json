@@ -1,0 +1,7 @@
+{
+  "id": "playlist-name-brainstormer",
+  "title": "Playlist Name Brainstormer",
+  "summary": "Choose genre and vibe to generate catchy playlist name ideas.",
+  "objective": "Select a genre and mood; the app shuffles themed name suggestions, lets users favorite options, and copy the chosen name to clipboard.",
+  "tags": ["music", "creativity", "names"]
+}

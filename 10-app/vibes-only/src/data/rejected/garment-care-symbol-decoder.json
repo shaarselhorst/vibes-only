@@ -1,0 +1,7 @@
+{
+  "id": "garment-care-symbol-decoder",
+  "title": "Garment Care Symbol Decoder",
+  "summary": "Select laundry symbols to see plain-language washing, drying, and ironing steps.",
+  "objective": "Tap symbols found on clothing tags to reveal clear care instructions and cautions in everyday language.",
+  "tags": ["home", "laundry", "reference"]
+}

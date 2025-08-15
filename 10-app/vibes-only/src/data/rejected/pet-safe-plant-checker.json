@@ -1,0 +1,7 @@
+{
+  "id": "pet-safe-plant-checker",
+  "title": "Pet-Safe Plant Checker",
+  "summary": "Search a plant name to see dog/cat safety status and simple precautions.",
+  "objective": "Type a plant name to get a quick safety rating for dogs and cats, symptoms to watch for, and basic placement tips.",
+  "tags": ["pets", "plants", "safety"]
+}

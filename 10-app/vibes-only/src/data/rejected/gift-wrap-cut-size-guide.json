@@ -1,0 +1,7 @@
+{
+  "id": "gift-wrap-cut-size-guide",
+  "title": "Gift Wrap Cut Size Guide",
+  "summary": "Enter box dimensions to get recommended paper size and tape points.",
+  "objective": "Users input length, width, and height; the app calculates a paper cut size with a simple diagram legend and suggests tape positions.",
+  "tags": ["crafts", "measure", "planner"]
+}

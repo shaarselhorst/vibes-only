@@ -1,0 +1,7 @@
+{
+  "id": "trivia-night-round-builder",
+  "title": "Trivia Night Round Builder",
+  "summary": "Choose a theme and difficulty to generate 10 trivia question prompts with answers.",
+  "objective": "Pick a theme and difficulty. The app provides 10 question prompts with answer keys, lets users reorder, and exports a printable round sheet for hosting.",
+  "tags": ["games", "party", "content"]
+}
