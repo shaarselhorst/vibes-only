@@ -1,0 +1,7 @@
+{
+  "id": "potluck-allergen-flag-checker",
+  "title": "Potluck Allergen Flag Checker",
+  "summary": "Enter dish ingredients to automatically flag common allergens and add serving labels.",
+  "objective": "Type or paste ingredients and get flagged allergens (e.g., nuts, dairy, gluten). Generate a simple label card with symbols and notes.",
+  "tags": ["food", "safety", "events"]
+}

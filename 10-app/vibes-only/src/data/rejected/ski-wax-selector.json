@@ -1,0 +1,7 @@
+{
+  "id": "ski-wax-selector",
+  "title": "Ski Wax Selector",
+  "summary": "Pick temperature and snow type to get a wax recommendation and prep notes.",
+  "objective": "Users choose current temperature and snow type; the app outputs recommended wax, quick prep steps, and a reminder checklist for base care.",
+  "tags": ["outdoors", "skiing", "reference"]
+}

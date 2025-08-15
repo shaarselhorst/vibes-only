@@ -1,0 +1,7 @@
+{
+  "id": "museum-visit-time-budgeter",
+  "title": "Museum Visit Time Budgeter",
+  "summary": "Select exhibits, assign minutes, and auto-build a simple walkthrough schedule.",
+  "objective": "Pick exhibits or sections and assign minutes; the app lays out a route and start times to fit your available window, with quick adjust.",
+  "tags": ["travel", "planning", "scheduling"]
+}

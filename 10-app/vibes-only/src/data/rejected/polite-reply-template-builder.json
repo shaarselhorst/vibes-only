@@ -1,0 +1,7 @@
+{
+  "id": "polite-reply-template-builder",
+  "title": "Polite Reply Template Builder",
+  "summary": "Pick scenario and tone to get editable email templates.",
+  "objective": "Select a scenario (decline, reschedule, follow-up) and tone (friendly, formal) to generate concise email templates you can copy and tweak.",
+  "tags": ["communication", "email", "templates"]
+}

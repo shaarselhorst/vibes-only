@@ -1,0 +1,7 @@
+{
+  "id": "first-frost-countdown",
+  "title": "First Frost Countdown",
+  "summary": "Enter expected frost date and see a live countdown with last‑chance task reminders.",
+  "objective": "Users input local frost date; the app shows a countdown and a checklist of pre-frost garden tasks with simple scheduling.",
+  "tags": ["gardening", "seasonal", "reminders"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "bbq-grill-timing-planner",
+  "title": "BBQ Grill Timing Planner",
+  "summary": "Add meats/sides and cook times; get a backward-timed start plan so everything finishes together.",
+  "objective": "Enter items with target finish time; the app computes staggered start times and rest periods, and prints a simple timeline.",
+  "tags": ["cooking", "timing", "planner"]
+}
