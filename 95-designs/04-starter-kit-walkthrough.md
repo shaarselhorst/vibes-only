@@ -19,39 +19,12 @@ This is the story of Alex, who wants a tiny app that works today. They grab an i
 
 Short snippet of Alex’s raw notes:
 ```text
-Pasted idea: "Gratitude Jar" — drop quick one-line notes; show random past note; show today's count; weekly streak indicator.
-
-My reality: just me using it. No auth. No backend. Keep it local (localStorage).
-
-MVP must-have:
-- Add one-line gratitude fast (Enter to add)
-- On app open, auto-show one random past note
-- Show "Today: N" counter
-
-UI sketch: input + big Add, small Today counter, list recent 5, area that shows a random past note on load.
+copied idea gratitude jar: drop in one-line gratitude notes and get a random reminder later; users add short entries tagged by day; app shows today’s note count, a random past note on open, and a weekly streak indicator to encourage consistency; reality check: single user (me), no auth, no backend, only localStorage; mvp = add fast with enter, auto-random note on load, today count visible; ui = one input + big add button, tiny today counter, recent 5 list, area that shows a random past note on open.
 ```
 
 ### 5) Ask AI to refine the idea
 - Alex asks the AI to turn the raw notes into a clearer, structured design doc.
 - The AI refines it into concise sections (purpose, features, constraints, acceptance criteria).
-
-Short snippet of the refined design doc:
-```text
-Purpose: Habit-friendly, zero-friction gratitude logger.
-
-Core features (v1):
-1) Add one-line entry (keyboard-first)
-2) Auto-display a random past entry on load
-3) Display today's entry count
-
-Constraints:
-- Single-user, no auth, no backend
-- Persistence via localStorage
-
-Acceptance:
-- Adding updates today's count immediately and persists on reload
-- On refresh, a random existing entry appears if entries exist
-```
 
 Now Alex has a clear design doc.
 
@@ -85,33 +58,11 @@ Now Alex has a clear design doc.
 
 Short snippet of raw implementation notes:
 ```text
-Stack: Vue 3 + Vite + Tailwind
-
-Types:
-Entry = { id: string, text: string, createdAt: number }
-
-State:
-- entries: Entry[]
-- derived: todayCount (local date), randomEntry (picked on mount)
-
-Storage:
-- localStorage key: "gratitude.entries"
-- load on startup, save after add
-
-Components:
-- AddEntryForm (input + Add)
-- TodayCountBadge
-- RandomPeek (shows random on mount)
-- RecentList (last 5)
-
-Routes: single page
+stack vue 3 + vite + tailwind; type Entry { id: string, text: string, createdAt: number }; state = entries[] plus todayCount (compute by local date boundaries) and randomEntry (pick on mount); storage = localStorage key "gratitude.entries" load on startup save after add; components = AddEntryForm (input + enter to submit) TodayCountBadge RandomPeek (shows random on mount) RecentList (last 5); single-page route; defer export tags weekly streak badge until after v1
 ```
 
 ### 12) Let AI refine the implementation plan
 - Alex asks the AI to structure and refine the plan.
-
-Short snippet of the refined implementation plan:
-TODO
 
 Now Alex has a solid implementation document.
 
