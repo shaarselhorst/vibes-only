@@ -1,0 +1,7 @@
+{
+  "id": "plant-watering-scheduler",
+  "title": "Plant Watering Scheduler",
+  "summary": "Set custom watering schedules for different plants with visual indicators and care reminders.",
+  "objective": "Users can add plants with names and photos, set custom watering schedules, receive reminders, mark watering as complete, and track plant health with simple status indicators.",
+  "tags": ["plants", "scheduling", "reminders"]
+}

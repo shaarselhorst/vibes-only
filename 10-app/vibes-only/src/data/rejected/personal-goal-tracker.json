@@ -1,0 +1,7 @@
+{
+  "id": "personal-goal-tracker",
+  "title": "Personal Goal Tracker",
+  "summary": "Set and monitor progress on personal goals with milestone tracking and celebration reminders.",
+  "objective": "Users can create personal goals with descriptions and target dates, break them into milestones, track progress, and receive reminders and celebrations for achievements.",
+  "tags": ["goals", "productivity", "tracking"]
+}

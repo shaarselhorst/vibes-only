@@ -1,0 +1,7 @@
+{
+  "id": "local-volunteer-opportunity-finder",
+  "title": "Local Volunteer Opportunity Finder",
+  "summary": "Discover volunteer opportunities in your community with time commitments and skill requirements.",
+  "objective": "Users can browse volunteer opportunities by location, time commitment, and required skills, save interesting opportunities, contact organizations, and track their volunteer hours and impact.",
+  "tags": ["volunteering", "community", "social-impact"]
+}

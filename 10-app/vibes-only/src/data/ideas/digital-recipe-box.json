@@ -1,0 +1,7 @@
+{
+  "id": "digital-recipe-box",
+  "title": "Digital Recipe Box",
+  "summary": "Store and organize family recipes with searchable tags and cooking time estimates.",
+  "objective": "Users can add recipes with ingredients, instructions, cooking times, and difficulty levels, organize them with tags and categories, search their collection, and view cooking time estimates for meal planning.",
+  "tags": ["cooking", "organization", "family"]
+}

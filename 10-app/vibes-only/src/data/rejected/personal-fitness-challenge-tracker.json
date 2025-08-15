@@ -1,0 +1,7 @@
+{
+  "id": "personal-fitness-challenge-tracker",
+  "title": "Personal Fitness Challenge Tracker",
+  "summary": "Set monthly fitness challenges with progress monitoring and achievement badges.",
+  "objective": "Users can create monthly fitness challenges with specific goals, track daily progress, earn achievement badges for milestones, and view challenge history with success rates.",
+  "tags": ["fitness", "challenges", "tracking"]
+}
