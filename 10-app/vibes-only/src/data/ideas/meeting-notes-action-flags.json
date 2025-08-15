@@ -1,0 +1,7 @@
+{
+  "id": "meeting-notes-action-flags",
+  "title": "Meeting Notes with Action Flags",
+  "summary": "Take timestamped meeting notes and one-tap flag action items to export as a clean to-do list.",
+  "objective": "Users type notes (optionally inserting timestamps), tap to flag any line as an action, and export flagged items as a simple to-do list they can copy or save.",
+  "tags": ["productivity", "work", "notes", "todos"]
+}

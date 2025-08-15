@@ -1,0 +1,7 @@
+{
+  "id": "home-appliance-maintenance-checklist",
+  "title": "Home Appliance Maintenance Checklist",
+  "summary": "Select your home’s appliances to get a seasonal maintenance checklist tailored to what you own.",
+  "objective": "Users tick the appliances they have; the app generates a simple seasonal task list and lets them check off completed items.",
+  "tags": ["home", "maintenance", "planning"]
+}

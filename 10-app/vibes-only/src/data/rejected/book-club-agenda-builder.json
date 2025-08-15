@@ -1,0 +1,7 @@
+{
+  "id": "book-club-agenda-builder",
+  "title": "Book Club Agenda Builder",
+  "summary": "Outline your book club meeting with sections for themes, quotes, and questions in a shareable agenda.",
+  "objective": "Users fill sections for themes, quotes, and questions; the app formats a simple agenda to share or print and lets them duplicate a template for next meetings.",
+  "tags": ["books", "community", "planning", "education"]
+}

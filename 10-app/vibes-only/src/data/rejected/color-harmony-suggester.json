@@ -1,0 +1,7 @@
+{
+  "id": "color-harmony-suggester",
+  "title": "Color Harmony Suggester",
+  "summary": "Select a clothing item to get matching color suggestions based on simple harmony rules.",
+  "objective": "Users choose a base color; the app suggests complements, triads, or analogous colors with quick sample outfits and hex codes to reference.",
+  "tags": ["fashion", "colors", "style", "tools"]
+}

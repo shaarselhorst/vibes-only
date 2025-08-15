@@ -1,0 +1,7 @@
+{
+  "id": "keyword-highlighter-extractor",
+  "title": "Keyword Highlighter + Extractor",
+  "summary": "Paste text and a target word list to highlight matches and export them for study.",
+  "objective": "Users paste text and a list of terms; the app highlights occurrences and lets them export matched terms with surrounding context for study.",
+  "tags": ["study", "reading", "tools", "education"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "skill-swap-matchboard",
+  "title": "Skill Swap Matchboard",
+  "summary": "Post a skill you can teach and one you want to learn, then see simple swap matches to connect.",
+  "objective": "Users add entries with a name, 'can teach', and 'want to learn'. The app highlights mutual matches between entries and lets users copy a short intro blurb for outreach.",
+  "tags": ["learning", "community", "skills", "matching"]
+}

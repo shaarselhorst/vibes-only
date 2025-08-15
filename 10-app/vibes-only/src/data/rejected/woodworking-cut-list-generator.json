@@ -1,0 +1,7 @@
+{
+  "id": "woodworking-cut-list-generator",
+  "title": "Woodworking Cut List Generator",
+  "summary": "Input board sizes and final dimensions to auto-generate a woodworking cut list.",
+  "objective": "Users input target dimensions and stock sizes; the app produces a simple cut list with counts and lengths to minimize waste.",
+  "tags": ["woodworking", "making", "planning", "tools"]
+}

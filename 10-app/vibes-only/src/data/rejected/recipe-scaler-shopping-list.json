@@ -1,0 +1,7 @@
+{
+  "id": "recipe-scaler-shopping-list",
+  "title": "Recipe Scaler + Shopping List",
+  "summary": "Scale any recipe to a chosen serving size to auto-adjust ingredient amounts and a simple shopping list.",
+  "objective": "Users paste ingredients and choose a target serving count. The app scales quantities and generates a grouped shopping list they can copy.",
+  "tags": ["cooking", "food", "tools", "planning"]
+}

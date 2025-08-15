@@ -1,0 +1,7 @@
+{
+  "id": "note-to-flashcards",
+  "title": "Note-to-Flashcards",
+  "summary": "Paste study notes and auto-split them into bite-size flashcards you can mark as known or review later.",
+  "objective": "Users paste text; the app splits by headings or Q/A cues into cards. Users flag as known or to-review and can shuffle or export for a quick drill.",
+  "tags": ["learning", "study", "flashcards", "education"]
+}
