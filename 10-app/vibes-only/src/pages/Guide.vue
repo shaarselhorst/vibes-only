@@ -75,7 +75,8 @@ async function copyCloneCommand() {
       <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">🧭 1) Choose your path</h2>
       <ol class="mt-4 space-y-3 list-decimal pl-5 text-left">
         <li class="text-zinc-800 dark:text-zinc-200"><strong>Pick an idea</strong> you care about.</li>
-        <li class="text-zinc-800 dark:text-zinc-200"><strong>Create <code>DESIGN.md</code></strong> with a rough description of the concept.</li>
+        <li class="text-zinc-800 dark:text-zinc-200">Clone the <strong>'Starter Kit'</strong> to get a head start.</li>
+        <li class="text-zinc-800 dark:text-zinc-200"><strong>Create a design document</strong> with a rough description of the concept.</li>
         <li class="text-zinc-800 dark:text-zinc-200"><strong>Dump your thoughts</strong>: requirements, desired outcomes, key features, and display/UX ideas.</li>
         <li class="text-zinc-800 dark:text-zinc-200">Write freely to capture context—then <strong>ask AI to structure and clarify</strong>.</li>
         <li class="text-zinc-800 dark:text-zinc-200">Add one short <strong>user scenario</strong> (who, how, expected result).</li>
@@ -112,7 +113,7 @@ async function copyCloneCommand() {
     <section id="define-the-mvp" class="w-full max-w-3xl mx-auto px-5 mt-9 text-left border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 rounded-2xl py-5">
       <h2 class="text-xl font-semibold text-zinc-900 dark:text-zinc-100">🎯 3) Define the MVP</h2>
       <ol class="mt-4 space-y-3 list-decimal pl-5 text-left">
-        <li class="text-zinc-800 dark:text-zinc-200"><strong>Create <code>TODO.md</code></strong> from your <code>DESIGN.md</code>: app type, prioritized features, acceptance criteria, and constraints.</li>
+        <li class="text-zinc-800 dark:text-zinc-200"><strong>Create implementation document</strong>, using your design document: app type, prioritized features, acceptance criteria, and constraints.</li>
         <li class="text-zinc-800 dark:text-zinc-200">If bootstrapped, let AI analyze the codebase and tailor suggestions to your stack.</li>
         <li class="text-zinc-800 dark:text-zinc-200">Start with the smallest slice that proves value. Example for this site: a single button selecting an idea from JSON and displaying it.</li>
       </ol>
