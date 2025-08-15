@@ -1,0 +1,7 @@
+{
+  "id": "kindness-bingo",
+  "title": "Kindness Bingo",
+  "summary": "Generate a bingo card of small kindness actions to complete this week.",
+  "objective": "Users choose a theme or use a default set to generate a bingo board of simple kindness actions. They mark squares as done and aim for lines or a full card, with an option to reshuffle for a new set.",
+  "tags": ["wellbeing", "kindness", "challenge", "habits"]
+}

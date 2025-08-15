@@ -1,0 +1,7 @@
+{
+  "id": "roommate-chore-rotation",
+  "title": "Roommate Chore Rotation",
+  "summary": "Enter roommates and chores to auto-generate a fair weekly rotation.",
+  "objective": "Users list roommates and chores (with optional effort level). The app produces a weekly schedule that rotates assignments evenly and lets users mark tasks as completed.",
+  "tags": ["home", "chores", "planning", "fairness"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "carpool-driver-rotator",
+  "title": "Carpool Driver Rotator",
+  "summary": "Create a carpool schedule by days and seats, then rotate drivers evenly.",
+  "objective": "Users add participants, available days, and seat counts. The app assigns drivers and riders per day with even rotation and shows a simple weekly plan to share or copy.",
+  "tags": ["transportation", "planning", "scheduling", "carpool"]
+}
