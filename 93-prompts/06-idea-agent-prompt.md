@@ -1,0 +1,3 @@
+# Idea agent request
+
+Use 02-suggestion-brainstorm.md to generate 20 new, unique, diverse ideas. Look in the data/ideas for approved ideas amd in data/rejected for rejected ideas, please consider these as to not repeat, or duplicate ideas. Your response must be a numered list of the summarized ideas in this chat, I then will pick the ones I want, you add those to data/ideas. The ones I did not pick, you should automatically add those to data/rejected. Start now.

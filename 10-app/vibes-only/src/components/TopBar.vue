@@ -71,11 +71,7 @@ onBeforeUnmount(() => {
         class="px-2.5 py-1 border border-zinc-300 text-zinc-700 dark:text-zinc-200 dark:border-zinc-600 rounded-lg bg-transparent hover:bg-zinc-100/60 dark:hover:bg-zinc-800/60 transition-colors duration-200"
         title="Open the Get Started Guide"
       >Guide</RouterLink>
-      <RouterLink
-        to="/idea-recommendations"
-        class="px-2.5 py-1 border border-zinc-300 text-zinc-700 dark:text-zinc-200 dark:border-zinc-600 rounded-lg bg-transparent hover:bg-zinc-100/60 dark:hover:bg-zinc-800/60 transition-colors duration-200"
-        title="Generate idea recommendations"
-      >Idea recommendations</RouterLink>
+      
     </nav>
     <div class="flex items-center gap-2">
       <button
