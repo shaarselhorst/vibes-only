@@ -1,0 +1,7 @@
+{
+  "id": "decision-tradeoff-matrix",
+  "title": "Decision Tradeoff Matrix",
+  "summary": "Score options against criteria and see simple weighted rankings.",
+  "objective": "Add options and criteria with weights; score each option, then view a sorted ranking and per-criterion breakdown.",
+  "tags": ["planning", "analysis", "productivity"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "table-seating-balancer",
+  "title": "Table Seating Balancer",
+  "summary": "Assign guests to tables while honoring simple constraints.",
+  "objective": "Users add guests, mark couples or must-not-sit pairs, and set table sizes; the app proposes a seating chart that keeps constraints and shows simple swaps to balance tables.",
+  "tags": ["events", "planning", "constraints"]
+}

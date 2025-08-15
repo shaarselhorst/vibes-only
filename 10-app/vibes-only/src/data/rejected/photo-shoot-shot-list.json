@@ -1,0 +1,7 @@
+{
+  "id": "photo-shoot-shot-list",
+  "title": "Photo Shoot Shot List",
+  "summary": "Plan a shoot with locations, props, and a checklist you can tick off.",
+  "objective": "Create a list of shots with location, lens/notes, and props; reorder by drag and check them off during the session.",
+  "tags": ["photography", "planning", "checklist"]
+}

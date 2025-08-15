@@ -1,0 +1,7 @@
+{
+  "id": "errand-batching-planner",
+  "title": "Errand Batching Planner",
+  "summary": "Group errands into efficient batches by area and store hours.",
+  "objective": "Users enter errands with locations, time windows, and durations; the app groups them into batches by proximity and opening hours and outputs a simple order for a single trip.",
+  "tags": ["productivity", "maps", "planning"]
+}

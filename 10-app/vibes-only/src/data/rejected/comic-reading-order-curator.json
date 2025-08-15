@@ -1,0 +1,7 @@
+{
+  "id": "comic-reading-order-curator",
+  "title": "Comic Reading Order Curator",
+  "summary": "Arrange issues and arcs into a custom reading order and export it.",
+  "objective": "Add series, arcs, and issues; drag to order them and export a clean list or checklist for reading.",
+  "tags": ["comics", "library", "organization"]
+}

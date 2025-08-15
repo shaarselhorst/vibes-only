@@ -1,0 +1,7 @@
+{
+  "id": "rpg-encounter-seed-generator",
+  "title": "RPG Encounter Seed Generator",
+  "summary": "Create quick encounter seeds by environment and difficulty.",
+  "objective": "Pick environment and difficulty; the app rolls creature types, hooks, and terrain twists to produce a compact encounter seed you can reuse.",
+  "tags": ["rpg", "games", "creative"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "paint-coverage-estimator",
+  "title": "Paint Coverage Estimator",
+  "summary": "Calculate paint needed from wall dimensions, coats, and coverage.",
+  "objective": "Enter wall widths and heights, subtract doors/windows, select coats and coverage per gallon; the app estimates gallons/liters and cost.",
+  "tags": ["home", "calculator", "diy"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "scene-prompt-shuffler",
+  "title": "Scene Prompt Shuffler",
+  "summary": "Mix a character, setting, and conflict into instant writing prompts.",
+  "objective": "Users roll from small lists for character, setting, and conflict; the app composes them into a single prompt with optional tone and genre toggles.",
+  "tags": ["writing", "creative", "prompts"]
+}

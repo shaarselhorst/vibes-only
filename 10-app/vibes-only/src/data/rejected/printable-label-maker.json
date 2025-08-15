@@ -1,0 +1,7 @@
+{
+  "id": "printable-label-maker",
+  "title": "Printable Label Maker",
+  "summary": "Lay out text in a simple grid to print jar/box labels cleanly.",
+  "objective": "Type label text, choose a grid and font size; the app packs labels onto a page for printing and lets you export to PDF.",
+  "tags": ["home", "printing", "utility"]
+}
