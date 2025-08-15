@@ -1,0 +1,7 @@
+{
+  "id": "toy-rotation-planner",
+  "title": "Toy Rotation Planner",
+  "summary": "Schedule which toy bins are out this week with notes.",
+  "objective": "Users create bins, set weekly rotation, and jot quick engagement notes to refresh play without buying more.",
+  "tags": ["family", "kids", "planning"]
+}

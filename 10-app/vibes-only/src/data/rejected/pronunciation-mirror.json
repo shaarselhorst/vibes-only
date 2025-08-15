@@ -1,0 +1,7 @@
+{
+  "id": "pronunciation-mirror",
+  "title": "Pronunciation Mirror",
+  "summary": "Record phrase attempts, loop playback, and self-rate clarity.",
+  "objective": "Users paste a phrase, record short attempts, and tag them good/ok/needs work. A mini chart shows progress over tries.",
+  "tags": ["language", "speaking", "practice"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "newcomer-city-bucket-list",
+  "title": "Newcomer City Bucket List",
+  "summary": "Pick themes and build a 20-item starter list to explore.",
+  "objective": "Users choose themes like food, parks, and culture; the app suggests a starter list they can edit and check off on weekends.",
+  "tags": ["travel", "city", "explore"]
+}

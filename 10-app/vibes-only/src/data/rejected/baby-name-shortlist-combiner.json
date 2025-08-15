@@ -1,0 +1,7 @@
+{
+  "id": "baby-name-shortlist-combiner",
+  "title": "Baby Name Shortlist Combiner",
+  "summary": "Merge two lists, filter by style/initials, get a tiny shortlist.",
+  "objective": "Partners add their name lists, set filters (initials, length, endings), and the app surfaces a 10-name overlap with quick star/skip decisions.",
+  "tags": ["family", "names", "decision"]
+}

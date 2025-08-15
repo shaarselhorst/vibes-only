@@ -1,0 +1,7 @@
+{
+  "id": "home-library-borrow-card",
+  "title": "Home Library Borrow Card",
+  "summary": "Track who borrowed a book and the due-by date.",
+  "objective": "Users scan or type a book title, assign it to a friend with a due date, and mark as returned in one tap. View outstanding loans.",
+  "tags": ["books", "tracking", "home"]
+}

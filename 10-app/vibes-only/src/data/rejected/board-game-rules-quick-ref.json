@@ -1,0 +1,7 @@
+{
+  "id": "board-game-rules-quick-ref",
+  "title": "Board Game Rules Quick Ref",
+  "summary": "Build a one-page cheat sheet of the 5 rules you forget.",
+  "objective": "Users pick a game, add the top rules they always look up, and export a small printable card for the box.",
+  "tags": ["games", "reference", "boardgames"]
+}

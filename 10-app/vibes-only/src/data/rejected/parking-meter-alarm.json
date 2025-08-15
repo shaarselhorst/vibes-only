@@ -1,0 +1,7 @@
+{
+  "id": "parking-meter-alarm",
+  "title": "Parking Meter Alarm",
+  "summary": "Set meter time with quick nudges before it expires.",
+  "objective": "Users set the meter expiry and get a heads-up notification with one-tap 5/10-minute snoozes. Mark the spot and copy the bay or plate if needed.",
+  "tags": ["parking", "reminder", "city"]
+}

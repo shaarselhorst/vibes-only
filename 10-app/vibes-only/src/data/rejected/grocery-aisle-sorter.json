@@ -1,0 +1,7 @@
+{
+  "id": "grocery-aisle-sorter",
+  "title": "Grocery Aisle Sorter",
+  "summary": "Auto-sort your shopping list to match your store’s aisles.",
+  "objective": "Users map their store’s aisle order once, paste any list, and the app reorders items to minimize backtracking. Save multiple store layouts.",
+  "tags": ["shopping", "lists", "productivity"]
+}

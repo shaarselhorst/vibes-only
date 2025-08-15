@@ -1,0 +1,7 @@
+{
+  "id": "race-pace-band-planner",
+  "title": "Race Pace Band Planner",
+  "summary": "Enter distance and target time to get printable splits.",
+  "objective": "Users choose distance or custom, enter target finish time, and the app outputs km/mile splits with optional fade or negative split adjustments. Export to print or save.",
+  "tags": ["running", "tools", "fitness"]
+}
