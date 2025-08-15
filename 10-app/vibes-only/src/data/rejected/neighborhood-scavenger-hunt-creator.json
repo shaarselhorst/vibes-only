@@ -1,0 +1,7 @@
+{
+  "id": "neighborhood-scavenger-hunt-creator",
+  "title": "Neighborhood Scavenger Hunt Creator",
+  "summary": "Generate a 12-item hunt, edit, and share a checklist.",
+  "objective": "Users pick a theme and difficulty, get a randomized item list they can tweak, and share a simple checklist to play outside.",
+  "tags": ["outdoors", "family", "games"]
+}

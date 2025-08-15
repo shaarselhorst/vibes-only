@@ -1,0 +1,7 @@
+{
+  "id": "tongue-twister-trainer",
+  "title": "Tongue Twister Trainer",
+  "summary": "Spin a tongue twister, record attempts, and check off clean runs.",
+  "objective": "Users pick a difficulty, get a twister, and use a simple recorder to play back and self-rate clarity. Track a small streak count and re-spin for a new challenge.",
+  "tags": ["speaking", "practice", "fun"]
+}

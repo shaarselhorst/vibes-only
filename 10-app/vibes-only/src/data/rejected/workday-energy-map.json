@@ -1,0 +1,7 @@
+{
+  "id": "workday-energy-map",
+  "title": "Workday Energy Map",
+  "summary": "Plot your energy by hour and tag tasks into green/yellow/red.",
+  "objective": "Users drag a simple energy curve across the day, tag task types, and get a quick view of best hours for focus, routine, or social work.",
+  "tags": ["productivity", "planning", "focus"]
+}

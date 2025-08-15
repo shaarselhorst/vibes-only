@@ -1,0 +1,7 @@
+{
+  "id": "personal-values-ranker",
+  "title": "Personal Values Ranker",
+  "summary": "Drag to order 12 values and export your top five.",
+  "objective": "Users drag cards of core values into priority order, jot a quick note on each, and export a snapshot of their top five.",
+  "tags": ["reflection", "self", "coaching"]
+}

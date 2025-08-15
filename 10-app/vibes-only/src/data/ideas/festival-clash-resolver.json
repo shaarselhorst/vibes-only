@@ -1,0 +1,7 @@
+{
+  "id": "festival-clash-resolver",
+  "title": "Festival Clash Resolver",
+  "summary": "Star must-see acts and auto-build a conflict-free schedule.",
+  "objective": "Users enter or paste the festival lineup with stages and times, star preferred acts, and the app assembles a simple timeline with best-fit picks and clearly flagged clashes. Users can swap selections and copy or export a shareable list.",
+  "tags": ["music", "events", "planning"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "memory-palace-builder",
+  "title": "Memory Palace Builder",
+  "summary": "Sketch rooms and attach cue cards to remember lists.",
+  "objective": "Users outline rooms or paths, drop cue cards with images or words, and rehearse a walkthrough. Export a simple rehearsal checklist.",
+  "tags": ["learning", "mnemonics", "study"]
+}

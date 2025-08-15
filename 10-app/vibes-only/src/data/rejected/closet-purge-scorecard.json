@@ -1,0 +1,7 @@
+{
+  "id": "closet-purge-scorecard",
+  "title": "Closet Purge Scorecard",
+  "summary": "Score clothing by fit, wear, and feel to decide keep/toss.",
+  "objective": "Users rate items on fit, frequency, and joy; the app recommends keep, tailor, or donate with a shareable tally.",
+  "tags": ["home", "declutter", "wardrobe"]
+}

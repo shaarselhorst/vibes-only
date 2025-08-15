@@ -1,0 +1,7 @@
+{
+  "id": "free-porch-drop-board",
+  "title": "Free Porch Drop Board",
+  "summary": "Post free items with pickup windows and mark as claimed.",
+  "objective": "Users create simple cards with item photo or title, rough area, and pickup window. A board shows new posts first; neighbors can claim in one tap and items auto-hide after pickup.",
+  "tags": ["local", "giveaway", "community"]
+}
