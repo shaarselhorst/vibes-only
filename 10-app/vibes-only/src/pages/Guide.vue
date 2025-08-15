@@ -1,5 +1,41 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import TopBar from '@/components/TopBar.vue'
+import VibeButton from '@/components/VibeButton.vue'
+
+const isCopied = ref(false)
+const buttonLabel = ref('Clone Starter Kit')
+
+async function copyCloneCommand() {
+  const cmd = 'git clone https://github.com/shvdg-developer/vibes-only-starter-kit.git'
+  try {
+    await navigator.clipboard.writeText(cmd)
+    isCopied.value = true
+    buttonLabel.value = 'Copied! 🎉'
+    setTimeout(() => {
+      isCopied.value = false
+      buttonLabel.value = 'Clone Starter Kit'
+    }, 2000)
+  } catch {
+    try {
+      const textarea = document.createElement('textarea')
+      textarea.value = cmd
+      textarea.setAttribute('readonly', '')
+      textarea.style.position = 'fixed'
+      textarea.style.left = '-9999px'
+      document.body.appendChild(textarea)
+      textarea.select()
+      document.execCommand('copy')
+      document.body.removeChild(textarea)
+      isCopied.value = true
+      buttonLabel.value = 'Copied! 🎉'
+      setTimeout(() => {
+        isCopied.value = false
+        buttonLabel.value = 'Clone Starter Kit'
+      }, 2000)
+    } catch {}
+  }
+}
 </script>
 
 <template>
@@ -9,6 +45,9 @@ import TopBar from '@/components/TopBar.vue'
         <TopBar />
         <h1 class="text-2xl font-extrabold tracking-tight text-zinc-900 dark:text-white">Guide</h1>
         <p class="mt-1.5 text-zinc-700 dark:text-zinc-300">A short, opinionated path from idea → v1.</p>
+        <div class="mt-3 flex items-center justify-center gap-2">
+          <VibeButton :label="buttonLabel" @click="copyCloneCommand" />
+        </div>
       </div>
     </header>
 

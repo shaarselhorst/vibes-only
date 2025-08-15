@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
+const props = withDefaults(defineProps<{
+  label?: string
+}>(), {
+  label: 'Get Vibing!'
+})
+
 const emit = defineEmits<{
   click: []
 }>()
@@ -25,12 +31,13 @@ const handleClick = () => {
       'relative px-8 py-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-bold text-lg rounded-full shadow-lg transform transition-all duration-150 ease-out hover:scale-105 active:scale-95',
       isPressed ? 'scale-95 shadow-2xl' : 'shadow-lg'
     ]"
+    :aria-label="props.label"
   >
     <!-- Glow effect -->
     <div class="absolute inset-0 bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 rounded-full blur-xl opacity-75 animate-pulse"></div>
     
     <!-- Button content -->
-    <span class="relative z-10">Get Vibing!</span>
+    <span class="relative z-10">{{ props.label }}</span>
     
     <!-- Sparkle effect -->
     <div class="absolute -top-1 -right-1 w-3 h-3 bg-yellow-300 rounded-full animate-ping"></div>

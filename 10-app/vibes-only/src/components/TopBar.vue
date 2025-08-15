@@ -26,6 +26,7 @@ const githubWrapperRef = ref<HTMLDivElement>()
 
 const frontendRepoUrl = 'https://github.com/shaarselhorst/vibes-only'
 const backendRepoUrl = 'https://github.com/shvdg-developer/vibes-only-served'
+const starterKitRepoUrl = 'https://github.com/shvdg-developer/vibes-only-starter-kit'
 
 function toggleGithubMenu() {
   isGithubMenuOpen.value = !isGithubMenuOpen.value
@@ -108,6 +109,16 @@ onBeforeUnmount(() => {
           role="menu"
           aria-label="GitHub repositories"
         >
+          <a
+            :href="starterKitRepoUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="menuitem"
+            class="flex items-center px-3 py-2 text-zinc-700 hover:bg-zinc-100 dark:text-zinc-200 dark:hover:bg-zinc-700/60"
+            @click="closeGithubMenu"
+          >
+            <span>Starter kit repo</span>
+          </a>
           <a
             :href="frontendRepoUrl"
             target="_blank"
