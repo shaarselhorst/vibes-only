@@ -80,6 +80,14 @@ async function copyCloneCommand() {
         <li class="text-zinc-800 dark:text-zinc-200"><strong>Dump your thoughts</strong>: requirements, desired outcomes, key features, and display/UX ideas.</li>
         <li class="text-zinc-800 dark:text-zinc-200">Write freely to capture context—then <strong>ask AI to structure and clarify</strong>.</li>
         <li class="text-zinc-800 dark:text-zinc-200">Add one short <strong>user scenario</strong> (who, how, expected result).</li>
+        <li class="text-zinc-800 dark:text-zinc-200">Add appropriate <strong>@Docs</strong> sources in Cursor (sources, references, etc.) so AI can pull official guidance. See
+          <a href="https://docs.cursor.com/en/guides/advanced/working-with-documentation#using-%40docs" class="text-blue-700 dark:text-blue-400 hover:underline" target="_blank" rel="noopener">Using @Docs</a>.
+        </li>
+        <li class="text-zinc-800 dark:text-zinc-200">If relevant, connect <strong>MCP</strong> providers for internal docs/tools (e.g., Confluence, Google Drive). See
+          <a href="https://docs.cursor.com/en/context/mcp" class="text-blue-700 dark:text-blue-400 hover:underline" target="_blank" rel="noopener">MCP overview</a>
+          and
+          <a href="https://docs.cursor.com/en/tools/mcp" class="text-blue-700 dark:text-blue-400 hover:underline" target="_blank" rel="noopener">MCP tools</a>.
+        </li>
       </ol>
     </section>
 
@@ -106,6 +114,9 @@ async function copyCloneCommand() {
               </ul>
             </li>
           </ul>
+        </li>
+        <li class="text-zinc-800 dark:text-zinc-200"><strong>Add project rules</strong> in <code>.cursor/rules</code> to guide architecture, stack choices, and workflows. See
+          <a href="https://docs.cursor.com/en/context/rules" class="text-blue-700 dark:text-blue-400 hover:underline" target="_blank" rel="noopener">Rules</a>.
         </li>
       </ol>
     </section>
