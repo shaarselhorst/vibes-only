@@ -1,48 +1,48 @@
-# Vibes Only
+# Vibes Only ✨
 
-AI project idea spinner: single-screen, one-hour build ideas for practicing with AI coding tools.
+Simple, low‑stakes project ideas to spark momentum.
 
-## Features
-- Random idea generator with particle effects
-- Shows up to three recent ideas; avoids duplicates
-- Dark/light theme toggle (persists to `localStorage`)
-- Two routes: `Home` (ideas) and `Guide` (build flow tips)
-- No backend — ideas are static JSON; deploy anywhere
+This repo contains a small Vue 3 app that surfaces bite‑sized ideas from a curated JSON library. Tap the button to “get vibing,” and copy any idea as Markdown to kickstart your next micro‑project.
 
-## Tech Stack
-- Vue 3 + TypeScript, Vue Router
-- Vite 7
-- Tailwind CSS 4 via `@tailwindcss/vite`
+## Quick start
 
-## Quick Start
 ```bash
 cd 10-app/vibes-only
 npm install
 npm run dev
 ```
-App runs at `http://localhost:5173`.
 
-Build/preview:
+The dev server URL will be printed in the terminal (Vite default is http://localhost:5173).
+
+## Features
+
+- Randomized, non‑repeating idea deck (preloaded queue)
+- One‑click copy to Markdown (title, summary, objective, tags)
+- Light/dark theme with persistence
+- Subtle particle/glow animations
+- Built‑in “Guide” page for going from idea → v1
+
+## Tech stack
+
+- Vue 3 + TypeScript
+- Vite 7
+- Tailwind CSS 4 (via `@tailwindcss/vite`)
+- Vue Router 4
+
+## Scripts
+
 ```bash
+# Start dev server
+npm run dev
+
+# Type-check and build for production
 npm run build
+
+# Preview the production build locally
 npm run preview
 ```
 
-## Repo Layout
-- `10-app/vibes-only/`: the Vue app
-- `93-prompts/`: prompts used to create the app and content
-- `95-designs/`: initial concept notes and guide drafts
+## Related
 
-## Add Ideas
-Put JSON files in `10-app/vibes-only/src/data/ideas/` with this shape:
-```json
-{
-  "id": "your-idea-id",
-  "title": "Your Project Title",
-  "summary": "One sentence on what it does",
-  "objective": "Short paragraph on the goal and scope",
-  "tags": ["tag1", "tag2"]
-}
-```
-
-Guidelines: keep scope small (1–3 features), concrete, and achievable in ~1 hour.
+- Frontend repo (this project): `https://github.com/shaarselhorst/vibes-only`
+- Companion backend (optional): `https://github.com/shvdg-developer/vibes-only-served`
